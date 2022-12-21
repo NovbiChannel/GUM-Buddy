@@ -1,0 +1,19 @@
+#Wed Dec 21 16:29:51 YEKT 2022
+path.4=7/classes.dex
+path.3=2/classes.dex
+path.2=12/classes.dex
+path.1=0/classes.dex
+path.5=9/classes.dex
+path.0=classes.dex
+base.4=/home/Dariano/AndroidStudioProjects/GumBuddy/app/build/intermediates/dex/debug/mergeProjectDexDebug/7/classes.dex
+base.3=/home/Dariano/AndroidStudioProjects/GumBuddy/app/build/intermediates/dex/debug/mergeProjectDexDebug/2/classes.dex
+base.2=/home/Dariano/AndroidStudioProjects/GumBuddy/app/build/intermediates/dex/debug/mergeProjectDexDebug/12/classes.dex
+base.1=/home/Dariano/AndroidStudioProjects/GumBuddy/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.0=/home/Dariano/AndroidStudioProjects/GumBuddy/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+renamed.5=classes6.dex
+renamed.4=classes5.dex
+base.5=/home/Dariano/AndroidStudioProjects/GumBuddy/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex

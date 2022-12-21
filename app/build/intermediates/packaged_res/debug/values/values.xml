@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_color">#F6F6F6</color>
+    <color name="black">#000000</color>
+    <color name="blue_200">#3989FF</color>
+    <color name="blue_500">#3971C3</color>
+    <color name="error">#B20000</color>
+    <color name="text_color">#696363</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Gum Buddy</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <style name="Theme.GumBuddy" parent="Theme.MaterialComponents.NoActionBar">
+        
+        <item name="colorPrimary">@color/blue_500</item>
+        <item name="colorSecondary">@color/white</item>
+        <item name="android:colorBackground">@color/background_color</item>
+        <item name="colorError">@color/error</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/black</item>
+        
+        <item name="colorSecondaryVariant">@color/blue_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>

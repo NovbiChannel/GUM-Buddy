@@ -1,0 +1,355 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:2:1-30:12
+MERGED from [androidx.databinding:viewbinding:7.3.1] /home/Dariano/.gradle/caches/transforms-3/e4fe4304c8389afc207e0c978e8f0c26/transformed/viewbinding-7.3.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.5.3] /home/Dariano/.gradle/caches/transforms-3/67d771ca7732c376da754cee08474615/transformed/navigation-fragment-ktx-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.5.3] /home/Dariano/.gradle/caches/transforms-3/dae8952245ade4942e6c6a16c4fc622e/transformed/navigation-fragment-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.5.4] /home/Dariano/.gradle/caches/transforms-3/4b2c6c7f96f5a24ab8ead65b3c8eb6fe/transformed/fragment-ktx-1.5.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] /home/Dariano/.gradle/caches/transforms-3/79919973027750c938d6d4806b49a08d/transformed/navigation-ui-ktx-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.3] /home/Dariano/.gradle/caches/transforms-3/bf187485765e5d8269d5bf8e888d1030/transformed/navigation-runtime-ktx-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.5.3] /home/Dariano/.gradle/caches/transforms-3/f9d698f602d46aab84d5c5d33245ebd6/transformed/navigation-ui-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] /home/Dariano/.gradle/caches/transforms-3/86f5200a81c4485761c60e4e2157b378/transformed/navigation-runtime-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.5.1] /home/Dariano/.gradle/caches/transforms-3/0eab1df6f9a95cff4182b0fdc13f8391/transformed/activity-ktx-1.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] /home/Dariano/.gradle/caches/transforms-3/44270e4145d62179be768594ba06af81/transformed/navigation-common-ktx-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.5.3] /home/Dariano/.gradle/caches/transforms-3/e49d2a5efd26dc42c1270b7f6f880471/transformed/navigation-common-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /home/Dariano/.gradle/caches/transforms-3/d36c543ee8c7ed861ad1ba787fb69c72/transformed/lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-ktx:2.4.3] /home/Dariano/.gradle/caches/transforms-3/45ecec6a3514a7d7b9951db25bef0c05/transformed/room-ktx-2.4.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] /home/Dariano/.gradle/caches/transforms-3/f4a9046bbdf176f1c4b81d414955bcbc/transformed/lifecycle-runtime-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.7.0] /home/Dariano/.gradle/caches/transforms-3/c226ac97c219b6b914df553852c5a2ae/transformed/material-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/Dariano/.gradle/caches/transforms-3/1bfa6a7b9bc7efe71f94611d2db489cc/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /home/Dariano/.gradle/caches/transforms-3/0058cf6a429107bbc0c159caeda61910/transformed/appcompat-resources-1.5.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.5.1] /home/Dariano/.gradle/caches/transforms-3/00c8ddd09a908a1e6c27c17dd9bfb3ae/transformed/appcompat-1.5.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/Dariano/.gradle/caches/transforms-3/e7d25db2d87a9b4a30fc2a6ed56220b9/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.5.4] /home/Dariano/.gradle/caches/transforms-3/3a87c37655a02a80bf248520b41cff73/transformed/fragment-1.5.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.5.1] /home/Dariano/.gradle/caches/transforms-3/336634a238c385edee73979ad84c859d/transformed/activity-1.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/Dariano/.gradle/caches/transforms-3/636e4dee397c35964914c55c02fb155e/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/Dariano/.gradle/caches/transforms-3/14a4895436f853b387f5ed2cf6ef125f/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/Dariano/.gradle/caches/transforms-3/f05dd599f0eef6586e93928ba6b3abb0/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/Dariano/.gradle/caches/transforms-3/9a41bd29d7728d31678406dd40a872ad/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/Dariano/.gradle/caches/transforms-3/84ad3106c56c2b2413706bf5ecfbce5e/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /home/Dariano/.gradle/caches/transforms-3/3b6b9e9f2d3b37bb7ff7ff2e62dd24d9/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] /home/Dariano/.gradle/caches/transforms-3/7609572304a948c5c1139bf0953cb2fc/transformed/window-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/Dariano/.gradle/caches/transforms-3/14bc7722b7a57c1061529258b9869c4d/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/Dariano/.gradle/caches/transforms-3/a06b3de89528683132289eb6add9616b/transformed/emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/Dariano/.gradle/caches/transforms-3/b83abcfe4dbe3a01ef950bdf097054a9/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/Dariano/.gradle/caches/transforms-3/32c587eda95ec49d70291313400bd1ef/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/Dariano/.gradle/caches/transforms-3/fd5f25ffc8a8d39db3b6f7c6ecf9bb68/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/Dariano/.gradle/caches/transforms-3/100e1ec84c1a412f9facfc2f67904f78/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/Dariano/.gradle/caches/transforms-3/255619a446ce8109d2fd60050ac2842e/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/Dariano/.gradle/caches/transforms-3/98f1bb332d08b1e071a53864fc9a9b40/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /home/Dariano/.gradle/caches/transforms-3/fa52518552c37c86db7907cc4e22e009/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] /home/Dariano/.gradle/caches/transforms-3/7da90c25db5c8f55a2c1c53e5507b5db/transformed/transition-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.9.0] /home/Dariano/.gradle/caches/transforms-3/4ab7d5cb24b9fd4219ae54b1888cf354/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core-ktx:1.9.0] /home/Dariano/.gradle/caches/transforms-3/65f794f3cde9fcb143a6089a1c4b3363/transformed/core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime:2.4.3] /home/Dariano/.gradle/caches/transforms-3/7dcefd0e8c9875b12b0417ca10d86e1c/transformed/room-runtime-2.4.3/AndroidManifest.xml:17:1-31:12
+MERGED from [com.jakewharton.timber:timber:5.0.1] /home/Dariano/.gradle/caches/transforms-3/aaa5e731298b950b45a4a5a8034ba29f/transformed/timber-5.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/Dariano/.gradle/caches/transforms-3/3de5c0a9defa684a452736c059f6d64a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/Dariano/.gradle/caches/transforms-3/4d5cb5fd17d2cbc3b6f3392c0399907b/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/Dariano/.gradle/caches/transforms-3/70919a62ab06dc2ed92bb195c2ff148d/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /home/Dariano/.gradle/caches/transforms-3/9581e8580a01c23d4dfb693e3f75b3b7/transformed/savedstate-ktx-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/Dariano/.gradle/caches/transforms-3/957251ce837f7decd838d56fca554656/transformed/savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/Dariano/.gradle/caches/transforms-3/411b8f0bf7b5b4c3dcf0c948462c34a6/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /home/Dariano/.gradle/caches/transforms-3/783a79c675915a0d5b8d204ef5e35e23/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.2.0] /home/Dariano/.gradle/caches/transforms-3/b59db1f0b6c66847cbc33646201f0a3e/transformed/sqlite-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/Dariano/.gradle/caches/transforms-3/243387805a6473adde4bea6592ec028a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/Dariano/.gradle/caches/transforms-3/89f3df909783243fd8e8ea7a2c89eba1/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/Dariano/.gradle/caches/transforms-3/30fe815da85524a4d638117a84df448f/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/Dariano/.gradle/caches/transforms-3/c859b42181d884932b094fb929d13a6c/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] /home/Dariano/.gradle/caches/transforms-3/dba493c4d795ad2f7b421f0962048817/transformed/lifecycle-livedata-core-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/Dariano/.gradle/caches/transforms-3/7ae0f8bc21c8a460ef8102aa3affe077/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/Dariano/.gradle/caches/transforms-3/7ed0a9e21ba82221d0da96531f8209d3/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/Dariano/.gradle/caches/transforms-3/05abe90b4e1d39a67ba78f833691485c/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/Dariano/.gradle/caches/transforms-3/789da90bb0fccf9ee3a338923afc0fc0/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/Dariano/.gradle/caches/transforms-3/ee58315e2d13daeea29a129204a91dce/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/Dariano/.gradle/caches/transforms-3/d78491c79954c1617ee3c1e308fdf04e/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/Dariano/.gradle/caches/transforms-3/7679b4b955856b695ef8ebe03bad96a1/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:2:1-30:12
+	package
+		INJECTED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml
+		ADDED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml
+		ADDED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml
+		ADDED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:5:5-28:19
+MERGED from [com.google.android.material:material:1.7.0] /home/Dariano/.gradle/caches/transforms-3/c226ac97c219b6b914df553852c5a2ae/transformed/material-1.7.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.7.0] /home/Dariano/.gradle/caches/transforms-3/c226ac97c219b6b914df553852c5a2ae/transformed/material-1.7.0/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/Dariano/.gradle/caches/transforms-3/1bfa6a7b9bc7efe71f94611d2db489cc/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/Dariano/.gradle/caches/transforms-3/1bfa6a7b9bc7efe71f94611d2db489cc/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.window:window:1.0.0] /home/Dariano/.gradle/caches/transforms-3/7609572304a948c5c1139bf0953cb2fc/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] /home/Dariano/.gradle/caches/transforms-3/7609572304a948c5c1139bf0953cb2fc/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/Dariano/.gradle/caches/transforms-3/a06b3de89528683132289eb6add9616b/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/Dariano/.gradle/caches/transforms-3/a06b3de89528683132289eb6add9616b/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] /home/Dariano/.gradle/caches/transforms-3/4ab7d5cb24b9fd4219ae54b1888cf354/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] /home/Dariano/.gradle/caches/transforms-3/4ab7d5cb24b9fd4219ae54b1888cf354/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.room:room-runtime:2.4.3] /home/Dariano/.gradle/caches/transforms-3/7dcefd0e8c9875b12b0417ca10d86e1c/transformed/room-runtime-2.4.3/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.4.3] /home/Dariano/.gradle/caches/transforms-3/7dcefd0e8c9875b12b0417ca10d86e1c/transformed/room-runtime-2.4.3/AndroidManifest.xml:24:5-29:19
+MERGED from [com.jakewharton.timber:timber:5.0.1] /home/Dariano/.gradle/caches/transforms-3/aaa5e731298b950b45a4a5a8034ba29f/transformed/timber-5.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:5.0.1] /home/Dariano/.gradle/caches/transforms-3/aaa5e731298b950b45a4a5a8034ba29f/transformed/timber-5.0.1/AndroidManifest.xml:7:5-20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/Dariano/.gradle/caches/transforms-3/4d5cb5fd17d2cbc3b6f3392c0399907b/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/Dariano/.gradle/caches/transforms-3/4d5cb5fd17d2cbc3b6f3392c0399907b/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/Dariano/.gradle/caches/transforms-3/243387805a6473adde4bea6592ec028a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/Dariano/.gradle/caches/transforms-3/243387805a6473adde4bea6592ec028a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/Dariano/.gradle/caches/transforms-3/89f3df909783243fd8e8ea7a2c89eba1/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/Dariano/.gradle/caches/transforms-3/89f3df909783243fd8e8ea7a2c89eba1/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] /home/Dariano/.gradle/caches/transforms-3/4ab7d5cb24b9fd4219ae54b1888cf354/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:10:9-41
+	android:fullBackupContent
+		ADDED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:8:9-54
+	android:roundIcon
+		ADDED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:11:9-54
+	tools:targetApi
+		ADDED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:14:9-29
+	android:icon
+		ADDED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:13:9-46
+	android:dataExtractionRules
+		ADDED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:7:9-65
+activity#com.example.gumbuddy.ui.MainActivity
+ADDED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:15:9-27:20
+	android:exported
+		ADDED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:17:13-36
+	android:name
+		ADDED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:16:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:21:27-74
+meta-data#android.app.lib_name
+ADDED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:24:13-26:36
+	android:value
+		ADDED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:26:17-33
+	android:name
+		ADDED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:25:17-52
+uses-sdk
+INJECTED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml
+INJECTED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.3.1] /home/Dariano/.gradle/caches/transforms-3/e4fe4304c8389afc207e0c978e8f0c26/transformed/viewbinding-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:viewbinding:7.3.1] /home/Dariano/.gradle/caches/transforms-3/e4fe4304c8389afc207e0c978e8f0c26/transformed/viewbinding-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.5.3] /home/Dariano/.gradle/caches/transforms-3/67d771ca7732c376da754cee08474615/transformed/navigation-fragment-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.5.3] /home/Dariano/.gradle/caches/transforms-3/67d771ca7732c376da754cee08474615/transformed/navigation-fragment-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.5.3] /home/Dariano/.gradle/caches/transforms-3/dae8952245ade4942e6c6a16c4fc622e/transformed/navigation-fragment-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.5.3] /home/Dariano/.gradle/caches/transforms-3/dae8952245ade4942e6c6a16c4fc622e/transformed/navigation-fragment-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.5.4] /home/Dariano/.gradle/caches/transforms-3/4b2c6c7f96f5a24ab8ead65b3c8eb6fe/transformed/fragment-ktx-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.5.4] /home/Dariano/.gradle/caches/transforms-3/4b2c6c7f96f5a24ab8ead65b3c8eb6fe/transformed/fragment-ktx-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] /home/Dariano/.gradle/caches/transforms-3/79919973027750c938d6d4806b49a08d/transformed/navigation-ui-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] /home/Dariano/.gradle/caches/transforms-3/79919973027750c938d6d4806b49a08d/transformed/navigation-ui-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.3] /home/Dariano/.gradle/caches/transforms-3/bf187485765e5d8269d5bf8e888d1030/transformed/navigation-runtime-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.3] /home/Dariano/.gradle/caches/transforms-3/bf187485765e5d8269d5bf8e888d1030/transformed/navigation-runtime-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.5.3] /home/Dariano/.gradle/caches/transforms-3/f9d698f602d46aab84d5c5d33245ebd6/transformed/navigation-ui-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.5.3] /home/Dariano/.gradle/caches/transforms-3/f9d698f602d46aab84d5c5d33245ebd6/transformed/navigation-ui-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] /home/Dariano/.gradle/caches/transforms-3/86f5200a81c4485761c60e4e2157b378/transformed/navigation-runtime-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] /home/Dariano/.gradle/caches/transforms-3/86f5200a81c4485761c60e4e2157b378/transformed/navigation-runtime-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.5.1] /home/Dariano/.gradle/caches/transforms-3/0eab1df6f9a95cff4182b0fdc13f8391/transformed/activity-ktx-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.5.1] /home/Dariano/.gradle/caches/transforms-3/0eab1df6f9a95cff4182b0fdc13f8391/transformed/activity-ktx-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] /home/Dariano/.gradle/caches/transforms-3/44270e4145d62179be768594ba06af81/transformed/navigation-common-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] /home/Dariano/.gradle/caches/transforms-3/44270e4145d62179be768594ba06af81/transformed/navigation-common-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.3] /home/Dariano/.gradle/caches/transforms-3/e49d2a5efd26dc42c1270b7f6f880471/transformed/navigation-common-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.3] /home/Dariano/.gradle/caches/transforms-3/e49d2a5efd26dc42c1270b7f6f880471/transformed/navigation-common-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /home/Dariano/.gradle/caches/transforms-3/d36c543ee8c7ed861ad1ba787fb69c72/transformed/lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /home/Dariano/.gradle/caches/transforms-3/d36c543ee8c7ed861ad1ba787fb69c72/transformed/lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.4.3] /home/Dariano/.gradle/caches/transforms-3/45ecec6a3514a7d7b9951db25bef0c05/transformed/room-ktx-2.4.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.4.3] /home/Dariano/.gradle/caches/transforms-3/45ecec6a3514a7d7b9951db25bef0c05/transformed/room-ktx-2.4.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] /home/Dariano/.gradle/caches/transforms-3/f4a9046bbdf176f1c4b81d414955bcbc/transformed/lifecycle-runtime-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] /home/Dariano/.gradle/caches/transforms-3/f4a9046bbdf176f1c4b81d414955bcbc/transformed/lifecycle-runtime-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.7.0] /home/Dariano/.gradle/caches/transforms-3/c226ac97c219b6b914df553852c5a2ae/transformed/material-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.7.0] /home/Dariano/.gradle/caches/transforms-3/c226ac97c219b6b914df553852c5a2ae/transformed/material-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/Dariano/.gradle/caches/transforms-3/1bfa6a7b9bc7efe71f94611d2db489cc/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/Dariano/.gradle/caches/transforms-3/1bfa6a7b9bc7efe71f94611d2db489cc/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /home/Dariano/.gradle/caches/transforms-3/0058cf6a429107bbc0c159caeda61910/transformed/appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /home/Dariano/.gradle/caches/transforms-3/0058cf6a429107bbc0c159caeda61910/transformed/appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] /home/Dariano/.gradle/caches/transforms-3/00c8ddd09a908a1e6c27c17dd9bfb3ae/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] /home/Dariano/.gradle/caches/transforms-3/00c8ddd09a908a1e6c27c17dd9bfb3ae/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/Dariano/.gradle/caches/transforms-3/e7d25db2d87a9b4a30fc2a6ed56220b9/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/Dariano/.gradle/caches/transforms-3/e7d25db2d87a9b4a30fc2a6ed56220b9/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] /home/Dariano/.gradle/caches/transforms-3/3a87c37655a02a80bf248520b41cff73/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] /home/Dariano/.gradle/caches/transforms-3/3a87c37655a02a80bf248520b41cff73/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] /home/Dariano/.gradle/caches/transforms-3/336634a238c385edee73979ad84c859d/transformed/activity-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] /home/Dariano/.gradle/caches/transforms-3/336634a238c385edee73979ad84c859d/transformed/activity-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/Dariano/.gradle/caches/transforms-3/636e4dee397c35964914c55c02fb155e/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/Dariano/.gradle/caches/transforms-3/636e4dee397c35964914c55c02fb155e/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/Dariano/.gradle/caches/transforms-3/14a4895436f853b387f5ed2cf6ef125f/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/Dariano/.gradle/caches/transforms-3/14a4895436f853b387f5ed2cf6ef125f/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/Dariano/.gradle/caches/transforms-3/f05dd599f0eef6586e93928ba6b3abb0/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/Dariano/.gradle/caches/transforms-3/f05dd599f0eef6586e93928ba6b3abb0/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/Dariano/.gradle/caches/transforms-3/9a41bd29d7728d31678406dd40a872ad/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/Dariano/.gradle/caches/transforms-3/9a41bd29d7728d31678406dd40a872ad/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/Dariano/.gradle/caches/transforms-3/84ad3106c56c2b2413706bf5ecfbce5e/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/Dariano/.gradle/caches/transforms-3/84ad3106c56c2b2413706bf5ecfbce5e/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /home/Dariano/.gradle/caches/transforms-3/3b6b9e9f2d3b37bb7ff7ff2e62dd24d9/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /home/Dariano/.gradle/caches/transforms-3/3b6b9e9f2d3b37bb7ff7ff2e62dd24d9/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /home/Dariano/.gradle/caches/transforms-3/7609572304a948c5c1139bf0953cb2fc/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /home/Dariano/.gradle/caches/transforms-3/7609572304a948c5c1139bf0953cb2fc/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/Dariano/.gradle/caches/transforms-3/14bc7722b7a57c1061529258b9869c4d/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/Dariano/.gradle/caches/transforms-3/14bc7722b7a57c1061529258b9869c4d/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/Dariano/.gradle/caches/transforms-3/a06b3de89528683132289eb6add9616b/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/Dariano/.gradle/caches/transforms-3/a06b3de89528683132289eb6add9616b/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/Dariano/.gradle/caches/transforms-3/b83abcfe4dbe3a01ef950bdf097054a9/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/Dariano/.gradle/caches/transforms-3/b83abcfe4dbe3a01ef950bdf097054a9/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/Dariano/.gradle/caches/transforms-3/32c587eda95ec49d70291313400bd1ef/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/Dariano/.gradle/caches/transforms-3/32c587eda95ec49d70291313400bd1ef/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/Dariano/.gradle/caches/transforms-3/fd5f25ffc8a8d39db3b6f7c6ecf9bb68/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/Dariano/.gradle/caches/transforms-3/fd5f25ffc8a8d39db3b6f7c6ecf9bb68/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/Dariano/.gradle/caches/transforms-3/100e1ec84c1a412f9facfc2f67904f78/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/Dariano/.gradle/caches/transforms-3/100e1ec84c1a412f9facfc2f67904f78/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/Dariano/.gradle/caches/transforms-3/255619a446ce8109d2fd60050ac2842e/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/Dariano/.gradle/caches/transforms-3/255619a446ce8109d2fd60050ac2842e/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/Dariano/.gradle/caches/transforms-3/98f1bb332d08b1e071a53864fc9a9b40/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/Dariano/.gradle/caches/transforms-3/98f1bb332d08b1e071a53864fc9a9b40/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /home/Dariano/.gradle/caches/transforms-3/fa52518552c37c86db7907cc4e22e009/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/Dariano/.gradle/caches/transforms-3/fa52518552c37c86db7907cc4e22e009/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /home/Dariano/.gradle/caches/transforms-3/7da90c25db5c8f55a2c1c53e5507b5db/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /home/Dariano/.gradle/caches/transforms-3/7da90c25db5c8f55a2c1c53e5507b5db/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.9.0] /home/Dariano/.gradle/caches/transforms-3/4ab7d5cb24b9fd4219ae54b1888cf354/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /home/Dariano/.gradle/caches/transforms-3/4ab7d5cb24b9fd4219ae54b1888cf354/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /home/Dariano/.gradle/caches/transforms-3/65f794f3cde9fcb143a6089a1c4b3363/transformed/core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /home/Dariano/.gradle/caches/transforms-3/65f794f3cde9fcb143a6089a1c4b3363/transformed/core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.4.3] /home/Dariano/.gradle/caches/transforms-3/7dcefd0e8c9875b12b0417ca10d86e1c/transformed/room-runtime-2.4.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.4.3] /home/Dariano/.gradle/caches/transforms-3/7dcefd0e8c9875b12b0417ca10d86e1c/transformed/room-runtime-2.4.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.jakewharton.timber:timber:5.0.1] /home/Dariano/.gradle/caches/transforms-3/aaa5e731298b950b45a4a5a8034ba29f/transformed/timber-5.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.timber:timber:5.0.1] /home/Dariano/.gradle/caches/transforms-3/aaa5e731298b950b45a4a5a8034ba29f/transformed/timber-5.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/Dariano/.gradle/caches/transforms-3/3de5c0a9defa684a452736c059f6d64a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/Dariano/.gradle/caches/transforms-3/3de5c0a9defa684a452736c059f6d64a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/Dariano/.gradle/caches/transforms-3/4d5cb5fd17d2cbc3b6f3392c0399907b/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/Dariano/.gradle/caches/transforms-3/4d5cb5fd17d2cbc3b6f3392c0399907b/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/Dariano/.gradle/caches/transforms-3/70919a62ab06dc2ed92bb195c2ff148d/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/Dariano/.gradle/caches/transforms-3/70919a62ab06dc2ed92bb195c2ff148d/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /home/Dariano/.gradle/caches/transforms-3/9581e8580a01c23d4dfb693e3f75b3b7/transformed/savedstate-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /home/Dariano/.gradle/caches/transforms-3/9581e8580a01c23d4dfb693e3f75b3b7/transformed/savedstate-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/Dariano/.gradle/caches/transforms-3/957251ce837f7decd838d56fca554656/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/Dariano/.gradle/caches/transforms-3/957251ce837f7decd838d56fca554656/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/Dariano/.gradle/caches/transforms-3/411b8f0bf7b5b4c3dcf0c948462c34a6/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/Dariano/.gradle/caches/transforms-3/411b8f0bf7b5b4c3dcf0c948462c34a6/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /home/Dariano/.gradle/caches/transforms-3/783a79c675915a0d5b8d204ef5e35e23/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /home/Dariano/.gradle/caches/transforms-3/783a79c675915a0d5b8d204ef5e35e23/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] /home/Dariano/.gradle/caches/transforms-3/b59db1f0b6c66847cbc33646201f0a3e/transformed/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] /home/Dariano/.gradle/caches/transforms-3/b59db1f0b6c66847cbc33646201f0a3e/transformed/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/Dariano/.gradle/caches/transforms-3/243387805a6473adde4bea6592ec028a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/Dariano/.gradle/caches/transforms-3/243387805a6473adde4bea6592ec028a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/Dariano/.gradle/caches/transforms-3/89f3df909783243fd8e8ea7a2c89eba1/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/Dariano/.gradle/caches/transforms-3/89f3df909783243fd8e8ea7a2c89eba1/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/Dariano/.gradle/caches/transforms-3/30fe815da85524a4d638117a84df448f/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/Dariano/.gradle/caches/transforms-3/30fe815da85524a4d638117a84df448f/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/Dariano/.gradle/caches/transforms-3/c859b42181d884932b094fb929d13a6c/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/Dariano/.gradle/caches/transforms-3/c859b42181d884932b094fb929d13a6c/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] /home/Dariano/.gradle/caches/transforms-3/dba493c4d795ad2f7b421f0962048817/transformed/lifecycle-livedata-core-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] /home/Dariano/.gradle/caches/transforms-3/dba493c4d795ad2f7b421f0962048817/transformed/lifecycle-livedata-core-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/Dariano/.gradle/caches/transforms-3/7ae0f8bc21c8a460ef8102aa3affe077/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/Dariano/.gradle/caches/transforms-3/7ae0f8bc21c8a460ef8102aa3affe077/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/Dariano/.gradle/caches/transforms-3/7ed0a9e21ba82221d0da96531f8209d3/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/Dariano/.gradle/caches/transforms-3/7ed0a9e21ba82221d0da96531f8209d3/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/Dariano/.gradle/caches/transforms-3/05abe90b4e1d39a67ba78f833691485c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/Dariano/.gradle/caches/transforms-3/05abe90b4e1d39a67ba78f833691485c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/Dariano/.gradle/caches/transforms-3/789da90bb0fccf9ee3a338923afc0fc0/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/Dariano/.gradle/caches/transforms-3/789da90bb0fccf9ee3a338923afc0fc0/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/Dariano/.gradle/caches/transforms-3/ee58315e2d13daeea29a129204a91dce/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/Dariano/.gradle/caches/transforms-3/ee58315e2d13daeea29a129204a91dce/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/Dariano/.gradle/caches/transforms-3/d78491c79954c1617ee3c1e308fdf04e/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/Dariano/.gradle/caches/transforms-3/d78491c79954c1617ee3c1e308fdf04e/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/Dariano/.gradle/caches/transforms-3/7679b4b955856b695ef8ebe03bad96a1/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/Dariano/.gradle/caches/transforms-3/7679b4b955856b695ef8ebe03bad96a1/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+INJECTED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml
+INJECTED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml
+		ADDED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml
+		INJECTED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml
+		ADDED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml
+		INJECTED from /home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] /home/Dariano/.gradle/caches/transforms-3/7609572304a948c5c1139bf0953cb2fc/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /home/Dariano/.gradle/caches/transforms-3/7609572304a948c5c1139bf0953cb2fc/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /home/Dariano/.gradle/caches/transforms-3/7609572304a948c5c1139bf0953cb2fc/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] /home/Dariano/.gradle/caches/transforms-3/7609572304a948c5c1139bf0953cb2fc/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /home/Dariano/.gradle/caches/transforms-3/7609572304a948c5c1139bf0953cb2fc/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /home/Dariano/.gradle/caches/transforms-3/7609572304a948c5c1139bf0953cb2fc/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/Dariano/.gradle/caches/transforms-3/a06b3de89528683132289eb6add9616b/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/Dariano/.gradle/caches/transforms-3/4d5cb5fd17d2cbc3b6f3392c0399907b/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/Dariano/.gradle/caches/transforms-3/4d5cb5fd17d2cbc3b6f3392c0399907b/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/Dariano/.gradle/caches/transforms-3/89f3df909783243fd8e8ea7a2c89eba1/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/Dariano/.gradle/caches/transforms-3/89f3df909783243fd8e8ea7a2c89eba1/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/Dariano/.gradle/caches/transforms-3/a06b3de89528683132289eb6add9616b/transformed/emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/Dariano/.gradle/caches/transforms-3/a06b3de89528683132289eb6add9616b/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/Dariano/.gradle/caches/transforms-3/a06b3de89528683132289eb6add9616b/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/Dariano/.gradle/caches/transforms-3/a06b3de89528683132289eb6add9616b/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/Dariano/.gradle/caches/transforms-3/a06b3de89528683132289eb6add9616b/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/Dariano/.gradle/caches/transforms-3/a06b3de89528683132289eb6add9616b/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/Dariano/.gradle/caches/transforms-3/a06b3de89528683132289eb6add9616b/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/Dariano/.gradle/caches/transforms-3/4ab7d5cb24b9fd4219ae54b1888cf354/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /home/Dariano/.gradle/caches/transforms-3/4ab7d5cb24b9fd4219ae54b1888cf354/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/Dariano/.gradle/caches/transforms-3/4ab7d5cb24b9fd4219ae54b1888cf354/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+permission#com.example.gumbuddy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/Dariano/.gradle/caches/transforms-3/4ab7d5cb24b9fd4219ae54b1888cf354/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /home/Dariano/.gradle/caches/transforms-3/4ab7d5cb24b9fd4219ae54b1888cf354/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/Dariano/.gradle/caches/transforms-3/4ab7d5cb24b9fd4219ae54b1888cf354/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/Dariano/.gradle/caches/transforms-3/4ab7d5cb24b9fd4219ae54b1888cf354/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/Dariano/.gradle/caches/transforms-3/4ab7d5cb24b9fd4219ae54b1888cf354/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+uses-permission#com.example.gumbuddy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/Dariano/.gradle/caches/transforms-3/4ab7d5cb24b9fd4219ae54b1888cf354/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/Dariano/.gradle/caches/transforms-3/4ab7d5cb24b9fd4219ae54b1888cf354/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.4.3] /home/Dariano/.gradle/caches/transforms-3/7dcefd0e8c9875b12b0417ca10d86e1c/transformed/room-runtime-2.4.3/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.4.3] /home/Dariano/.gradle/caches/transforms-3/7dcefd0e8c9875b12b0417ca10d86e1c/transformed/room-runtime-2.4.3/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.4.3] /home/Dariano/.gradle/caches/transforms-3/7dcefd0e8c9875b12b0417ca10d86e1c/transformed/room-runtime-2.4.3/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.4.3] /home/Dariano/.gradle/caches/transforms-3/7dcefd0e8c9875b12b0417ca10d86e1c/transformed/room-runtime-2.4.3/AndroidManifest.xml:26:13-74
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/Dariano/.gradle/caches/transforms-3/4d5cb5fd17d2cbc3b6f3392c0399907b/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/Dariano/.gradle/caches/transforms-3/4d5cb5fd17d2cbc3b6f3392c0399907b/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/Dariano/.gradle/caches/transforms-3/4d5cb5fd17d2cbc3b6f3392c0399907b/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
