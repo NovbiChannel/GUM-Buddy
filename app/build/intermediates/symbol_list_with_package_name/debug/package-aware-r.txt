@@ -2599,12 +2599,15 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable button_background
 drawable derictory_icon
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable edittext_background
+drawable first_start
 drawable home_icon
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
@@ -2691,6 +2694,7 @@ drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable training_icon
+drawable white_elevation_shape_r30
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2758,6 +2762,7 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_setupFragment_to_homeFragment
 id action_text
 id actions
 id activity_chooser_view_content
@@ -2872,6 +2877,7 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id etNameUser
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2934,8 +2940,11 @@ id line3
 id linear
 id listMode
 id list_item
+id llInfoBlock
 id locale
+id loginButton
 id ltr
+id main_image
 id marquee
 id masked
 id match_constraint
@@ -3074,6 +3083,7 @@ id select_dialog_listview
 id selected
 id selection_type
 id settingFragment
+id setupFragment
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -3330,6 +3340,7 @@ layout design_text_input_start_icon
 layout fragment_directory
 layout fragment_home
 layout fragment_setting
+layout fragment_setup
 layout fragment_statistics
 layout fragment_workout
 layout m3_alert_dialog
@@ -3425,6 +3436,7 @@ string abc_toolbar_collapse_description
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
+string athlete_in_the_gym
 string bottom_sheet_behavior
 string bottomsheet_action_collapse
 string bottomsheet_action_expand
@@ -3435,6 +3447,8 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
+string enter
+string enter_your_name
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -3455,6 +3469,7 @@ string m3_sys_motion_easing_linear
 string m3_sys_motion_easing_standard
 string m3_sys_motion_easing_standard_accelerate
 string m3_sys_motion_easing_standard_decelerate
+string make_your_own_workout_plans_and_train_at_your_own_pace
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_selection
@@ -3540,6 +3555,7 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string search_menu_title
 string status_bar_notification_info_overflow
+string welcome_to_gum_body
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

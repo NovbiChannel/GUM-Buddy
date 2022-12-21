@@ -8,17 +8,22 @@
     <color name="text_color">#696363</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">Gum Buddy</string>
+    <string name="athlete_in_the_gym">Athlete in the gym</string>
+    <string name="enter">Enter</string>
+    <string name="enter_your_name">Enter your name</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="make_your_own_workout_plans_and_train_at_your_own_pace">Make your own workout plans \n and train at your \n own pace</string>
+    <string name="welcome_to_gum_body">Welcome \n to GUM Body</string>
     <style name="Theme.GumBuddy" parent="Theme.MaterialComponents.NoActionBar">
         
-        <item name="colorPrimary">@color/blue_500</item>
+        <item name="colorPrimary">@color/blue_200</item>
         <item name="colorSecondary">@color/white</item>
         <item name="android:colorBackground">@color/background_color</item>
         <item name="colorError">@color/error</item>
         <item name="colorPrimaryVariant">@color/white</item>
         <item name="colorOnPrimary">@color/black</item>
         
-        <item name="colorSecondaryVariant">@color/blue_200</item>
+        <item name="colorSecondaryVariant">@color/blue_500</item>
         <item name="colorOnSecondary">@color/black</item>
         
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>

@@ -28,9 +28,14 @@ class MainActivity : AppCompatActivity() {
             .addOnDestinationChangedListener { _, destination, _ ->
                 when (destination.id) {
                     R.id.workoutFragment, R.id.statisticsFragment, R.id.homeFragment, R.id.directoryFragment,
-                        R.id.settingFragment ->
+                        R.id.settingFragment -> {
                         binding.bottomNavigationView.visibility = View.VISIBLE
-                    else -> binding.bottomNavigationView.visibility = View.GONE
+                        binding.appBarLayout.visibility = View.VISIBLE
+                        }
+                    else -> {
+                        binding.bottomNavigationView.visibility = View.GONE
+                        binding.appBarLayout.visibility = View.GONE
+                    }
                 }
             }
     }

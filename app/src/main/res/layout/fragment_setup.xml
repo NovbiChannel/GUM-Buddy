@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SetupFragment">
+
+    <ImageView
+        android:id="@+id/main_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/first_start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:contentDescription="@string/athlete_in_the_gym" />
+
+    <LinearLayout
+        android:id="@+id/llInfoBlock"
+        android:maxWidth="674dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_elevation_shape_r30"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5">
+
+        <TextView
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="21dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="@string/welcome_to_gum_body"
+            android:textColor="@color/blue_500"/>
+
+        <TextView
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:text="@string/make_your_own_workout_plans_and_train_at_your_own_pace"
+            android:textColor="@color/text_color" />
+
+        <EditText
+            android:id="@+id/etNameUser"
+            android:layout_width="297dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="32dp"
+            android:layout_marginTop="18dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:ems="10"
+            android:background="@drawable/edittext_background"
+            android:hint="@string/enter_your_name"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/text_color"
+            android:textColor="@color/text_color"
+            android:textSize="16sp"
+            android:autofillHints="" />
+
+        <Button
+            android:id="@+id/loginButton"
+            style="@android:style/Widget.Button"
+            android:layout_width="297dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="32dp"
+            android:layout_marginVertical="16dp"
+            android:background="@drawable/button_background"
+            android:text="@string/enter"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
