@@ -1,34 +1,30 @@
 [
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-mergeDebugResources-48:/layout/fragment_setup.xml",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/layout/fragment_setup.xml"
+        "merged": "com.example.gumbuddy.app-mergeDebugResources-48:/layout/fragment_statistics.xml",
+        "source": "com.example.gumbuddy.app-main-51:/layout/fragment_statistics.xml"
     },
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-mergeDebugResources-48:/layout/fragment_statistics.xml",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/layout/fragment_statistics.xml"
+        "merged": "com.example.gumbuddy.app-mergeDebugResources-48:/layout/activity_main.xml",
+        "source": "com.example.gumbuddy.app-main-51:/layout/activity_main.xml"
     },
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-mergeDebugResources-48:/layout/fragment_directory.xml",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/layout/fragment_directory.xml"
-    },
-    {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-mergeDebugResources-48:/layout/fragment_workout.xml",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/layout/fragment_workout.xml"
-    },
-    {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-mergeDebugResources-48:/layout/activity_main.xml",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/layout/activity_main.xml"
-    },
-    {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-mergeDebugResources-48:/layout/fragment_home.xml",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/layout/fragment_home.xml"
+        "merged": "com.example.gumbuddy.app-mergeDebugResources-48:/layout/fragment_directory.xml",
+        "source": "com.example.gumbuddy.app-main-51:/layout/fragment_directory.xml"
     },
     {
         "merged": "com.example.gumbuddy.app-mergeDebugResources-48:/layout/fragment_setup.xml",
         "source": "com.example.gumbuddy.app-main-51:/layout/fragment_setup.xml"
     },
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-mergeDebugResources-48:/layout/fragment_setting.xml",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/layout/fragment_setting.xml"
+        "merged": "com.example.gumbuddy.app-mergeDebugResources-48:/layout/fragment_workout.xml",
+        "source": "com.example.gumbuddy.app-main-51:/layout/fragment_workout.xml"
+    },
+    {
+        "merged": "com.example.gumbuddy.app-mergeDebugResources-48:/layout/fragment_setting.xml",
+        "source": "com.example.gumbuddy.app-main-51:/layout/fragment_setting.xml"
+    },
+    {
+        "merged": "com.example.gumbuddy.app-mergeDebugResources-48:/layout/fragment_home.xml",
+        "source": "com.example.gumbuddy.app-main-51:/layout/fragment_home.xml"
     }
 ]

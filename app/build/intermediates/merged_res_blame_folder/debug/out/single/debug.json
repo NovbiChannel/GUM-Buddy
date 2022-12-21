@@ -1,150 +1,142 @@
 [
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.example.gumbuddy.app-merged_res-49:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.gumbuddy.app-main-51:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/layout_fragment_setting.xml.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/layout/fragment_setting.xml"
+        "merged": "com.example.gumbuddy.app-merged_res-49:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.gumbuddy.app-main-51:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/drawable_home_icon.xml.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/drawable/home_icon.xml"
+        "merged": "com.example.gumbuddy.app-merged_res-49:/layout_activity_main.xml.flat",
+        "source": "com.example.gumbuddy.app-main-51:/layout/activity_main.xml"
     },
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.example.gumbuddy.app-merged_res-49:/drawable_derictory_icon.xml.flat",
+        "source": "com.example.gumbuddy.app-main-51:/drawable/derictory_icon.xml"
     },
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "com.example.gumbuddy.app-merged_res-49:/layout_fragment_setting.xml.flat",
+        "source": "com.example.gumbuddy.app-main-51:/layout/fragment_setting.xml"
     },
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/drawable_statistics_icon.xml.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/drawable/statistics_icon.xml"
+        "merged": "com.example.gumbuddy.app-merged_res-49:/drawable_statistics_icon.xml.flat",
+        "source": "com.example.gumbuddy.app-main-51:/drawable/statistics_icon.xml"
     },
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/xml_data_extraction_rules.xml.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/xml/data_extraction_rules.xml"
+        "merged": "com.example.gumbuddy.app-merged_res-49:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.gumbuddy.app-main-51:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.gumbuddy.app-merged_res-49:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.gumbuddy.app-main-51:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.gumbuddy.app-merged_res-49:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.gumbuddy.app-main-51:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
         "merged": "com.example.gumbuddy.app-merged_res-49:/layout_fragment_setup.xml.flat",
         "source": "com.example.gumbuddy.app-main-51:/layout/fragment_setup.xml"
     },
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/layout_fragment_statistics.xml.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/layout/fragment_statistics.xml"
+        "merged": "com.example.gumbuddy.app-merged_res-49:/drawable_setting_icon.xml.flat",
+        "source": "com.example.gumbuddy.app-main-51:/drawable/setting_icon.xml"
     },
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/drawable_white_elevation_shape_r30.xml.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/drawable/white_elevation_shape_r30.xml"
+        "merged": "com.example.gumbuddy.app-merged_res-49:/drawable_bottom_nav_selector.xml.flat",
+        "source": "com.example.gumbuddy.app-main-51:/drawable/bottom_nav_selector.xml"
     },
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.example.gumbuddy.app-merged_res-49:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.gumbuddy.app-main-51:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/layout_activity_main.xml.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/layout/activity_main.xml"
+        "merged": "com.example.gumbuddy.app-merged_res-49:/layout_fragment_directory.xml.flat",
+        "source": "com.example.gumbuddy.app-main-51:/layout/fragment_directory.xml"
     },
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/menu_bottom_nav_menu.xml.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/menu/bottom_nav_menu.xml"
+        "merged": "com.example.gumbuddy.app-merged_res-49:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.gumbuddy.app-main-51:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.example.gumbuddy.app-merged_res-49:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.gumbuddy.app-main-51:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/drawable_setting_icon.xml.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/drawable/setting_icon.xml"
+        "merged": "com.example.gumbuddy.app-merged_res-49:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.gumbuddy.app-main-51:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/drawable_derictory_icon.xml.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/drawable/derictory_icon.xml"
+        "merged": "com.example.gumbuddy.app-merged_res-49:/drawable_home_icon.xml.flat",
+        "source": "com.example.gumbuddy.app-main-51:/drawable/home_icon.xml"
     },
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.example.gumbuddy.app-merged_res-49:/layout_fragment_workout.xml.flat",
+        "source": "com.example.gumbuddy.app-main-51:/layout/fragment_workout.xml"
     },
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/drawable_training_icon.xml.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/drawable/training_icon.xml"
+        "merged": "com.example.gumbuddy.app-merged_res-49:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.gumbuddy.app-main-51:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/drawable_bottom_nav_selector.xml.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/drawable/bottom_nav_selector.xml"
+        "merged": "com.example.gumbuddy.app-merged_res-49:/layout_fragment_home.xml.flat",
+        "source": "com.example.gumbuddy.app-main-51:/layout/fragment_home.xml"
     },
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/layout_fragment_workout.xml.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/layout/fragment_workout.xml"
+        "merged": "com.example.gumbuddy.app-merged_res-49:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.example.gumbuddy.app-main-51:/menu/bottom_nav_menu.xml"
     },
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/layout_fragment_setup.xml.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/layout/fragment_setup.xml"
+        "merged": "com.example.gumbuddy.app-merged_res-49:/xml_backup_rules.xml.flat",
+        "source": "com.example.gumbuddy.app-main-51:/xml/backup_rules.xml"
     },
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/drawable_edittext_background.xml.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/drawable/edittext_background.xml"
+        "merged": "com.example.gumbuddy.app-merged_res-49:/drawable_button_background.xml.flat",
+        "source": "com.example.gumbuddy.app-main-51:/drawable/button_background.xml"
     },
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/navigation_nav_graph.xml.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/navigation/nav_graph.xml"
-    },
-    {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/mipmap-anydpi-v26/ic_launcher.xml"
-    },
-    {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/drawable_first_start.jpg.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/drawable/first_start.jpg"
-    },
-    {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/layout_fragment_directory.xml.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/layout/fragment_directory.xml"
+        "merged": "com.example.gumbuddy.app-merged_res-49:/drawable_first_start.jpg.flat",
+        "source": "com.example.gumbuddy.app-main-51:/drawable/first_start.jpg"
     },
     {
         "merged": "com.example.gumbuddy.app-merged_res-49:/navigation_nav_graph.xml.flat",
         "source": "com.example.gumbuddy.app-main-51:/navigation/nav_graph.xml"
     },
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.example.gumbuddy.app-merged_res-49:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.gumbuddy.app-main-51:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.example.gumbuddy.app-merged_res-49:/drawable_white_elevation_shape_r30.xml.flat",
+        "source": "com.example.gumbuddy.app-main-51:/drawable/white_elevation_shape_r30.xml"
     },
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/drawable_button_background.xml.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/drawable/button_background.xml"
+        "merged": "com.example.gumbuddy.app-merged_res-49:/drawable_training_icon.xml.flat",
+        "source": "com.example.gumbuddy.app-main-51:/drawable/training_icon.xml"
     },
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.example.gumbuddy.app-merged_res-49:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.gumbuddy.app-main-51:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.gumbuddy.app-merged_res-49:/layout_fragment_statistics.xml.flat",
+        "source": "com.example.gumbuddy.app-main-51:/layout/fragment_statistics.xml"
     },
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.gumbuddy.app-merged_res-49:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.gumbuddy.app-main-51:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/layout_fragment_home.xml.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/layout/fragment_home.xml"
+        "merged": "com.example.gumbuddy.app-merged_res-49:/drawable_edittext_background.xml.flat",
+        "source": "com.example.gumbuddy.app-main-51:/drawable/edittext_background.xml"
     },
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.example.gumbuddy.app-merged_res-49:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.gumbuddy.app-main-51:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/drawable_ic_launcher_background.xml.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/drawable/ic_launcher_background.xml"
-    },
-    {
-        "merged": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-merged_res-49:/xml_backup_rules.xml.flat",
-        "source": "/home/Dariano/.gradle/daemon/7.4/com.example.gumbuddy.app-main-51:/xml/backup_rules.xml"
+        "merged": "com.example.gumbuddy.app-merged_res-49:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.gumbuddy.app-main-51:/mipmap-anydpi-v26/ic_launcher.xml"
     }
 ]

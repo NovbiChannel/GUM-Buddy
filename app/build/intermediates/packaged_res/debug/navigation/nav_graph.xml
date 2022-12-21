@@ -32,7 +32,7 @@
         tools:layout="@layout/fragment_workout" />
     <fragment
         android:id="@+id/setupFragment"
-        android:name="com.example.gumbuddy.ui.SetupFragment"
+        android:name="com.example.gumbuddy.ui.fragments.SetupFragment"
         android:label="fragment_setup"
         tools:layout="@layout/fragment_setup" >
         <action

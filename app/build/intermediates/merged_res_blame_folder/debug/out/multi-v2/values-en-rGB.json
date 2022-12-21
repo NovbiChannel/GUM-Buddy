@@ -4,7 +4,7 @@
             "outputFile": "com.example.gumbuddy.app-mergeDebugResources-47:/values-en-rGB/values-en-rGB.xml",
             "map": [
                 {
-                    "source": "/home/Dariano/.gradle/caches/transforms-3/00c8ddd09a908a1e6c27c17dd9bfb3ae/transformed/appcompat-1.5.1/res/values-en-rGB/values-en-rGB.xml",
+                    "source": "/home/Dariano/.gradle/caches/transforms-3/9aee76d22914e243b60886d2902d7708/transformed/appcompat-1.5.1/res/values-en-rGB/values-en-rGB.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/Dariano/.gradle/caches/transforms-3/4ab7d5cb24b9fd4219ae54b1888cf354/transformed/core-1.9.0/res/values-en-rGB/values-en-rGB.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "93",
-                        "startColumns": "4",
-                        "startOffsets": "7688",
-                        "endColumns": "100",
-                        "endOffsets": "7784"
-                    }
-                },
-                {
-                    "source": "/home/Dariano/.gradle/caches/transforms-3/c226ac97c219b6b914df553852c5a2ae/transformed/material-1.7.0/res/values-en-rGB/values-en-rGB.xml",
+                    "source": "/home/Dariano/.gradle/caches/transforms-3/0281c470dab95e7995b7755028332f6e/transformed/material-1.7.0/res/values-en-rGB/values-en-rGB.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -57,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "/home/Dariano/.gradle/caches/transforms-3/f9d698f602d46aab84d5c5d33245ebd6/transformed/navigation-ui-2.5.3/res/values-en-rGB/values-en-rGB.xml",
+                    "source": "/home/Dariano/.gradle/caches/transforms-3/6cdc12868569fa9d32b71966237dc87f/transformed/navigation-ui-2.5.3/res/values-en-rGB/values-en-rGB.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -71,6 +54,23 @@
                         "startOffsets": "7304,7410",
                         "endColumns": "105,116",
                         "endOffsets": "7405,7522"
+                    }
+                },
+                {
+                    "source": "/home/Dariano/.gradle/caches/transforms-3/848f72b2faa01f68555b5c6962c024e2/transformed/core-1.9.0/res/values-en-rGB/values-en-rGB.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "93",
+                        "startColumns": "4",
+                        "startOffsets": "7688",
+                        "endColumns": "100",
+                        "endOffsets": "7784"
                     }
                 }
             ]
