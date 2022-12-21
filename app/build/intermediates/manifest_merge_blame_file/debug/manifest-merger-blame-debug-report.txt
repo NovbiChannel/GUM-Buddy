@@ -1,0 +1,119 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.gumbuddy"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] /home/Dariano/.gradle/caches/transforms-3/848f72b2faa01f68555b5c6962c024e2/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.gumbuddy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] /home/Dariano/.gradle/caches/transforms-3/848f72b2faa01f68555b5c6962c024e2/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] /home/Dariano/.gradle/caches/transforms-3/848f72b2faa01f68555b5c6962c024e2/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.gumbuddy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] /home/Dariano/.gradle/caches/transforms-3/848f72b2faa01f68555b5c6962c024e2/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] /home/Dariano/.gradle/caches/transforms-3/848f72b2faa01f68555b5c6962c024e2/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:5:5-29:19
+18        android:name="com.example.gumbuddy.BaseApplication"
+18-->/home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:6:9-40
+19        android:allowBackup="true"
+19-->/home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:7:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.9.0] /home/Dariano/.gradle/caches/transforms-3/848f72b2faa01f68555b5c6962c024e2/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+21        android:dataExtractionRules="@xml/data_extraction_rules"
+21-->/home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:8:9-65
+22        android:debuggable="true"
+23        android:extractNativeLibs="false"
+24        android:fullBackupContent="@xml/backup_rules"
+24-->/home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:9:9-54
+25        android:icon="@mipmap/ic_launcher"
+25-->/home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:10:9-43
+26        android:label="@string/app_name"
+26-->/home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:11:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->/home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:12:9-54
+28        android:supportsRtl="true"
+28-->/home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:13:9-35
+29        android:testOnly="true"
+30        android:theme="@style/Theme.GumBuddy" >
+30-->/home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:14:9-46
+31        <activity
+31-->/home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:16:9-28:20
+32            android:name="com.example.gumbuddy.ui.MainActivity"
+32-->/home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:17:13-44
+33            android:exported="true" >
+33-->/home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:18:13-36
+34            <intent-filter>
+34-->/home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:19:13-23:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->/home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:20:17-69
+35-->/home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:20:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:22:17-77
+37-->/home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:22:27-74
+38            </intent-filter>
+39
+40            <meta-data
+40-->/home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:25:13-27:36
+41                android:name="android.app.lib_name"
+41-->/home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:26:17-52
+42                android:value="" />
+42-->/home/Dariano/AndroidStudioProjects/GumBuddy/app/src/main/AndroidManifest.xml:27:17-33
+43        </activity>
+44
+45        <uses-library
+45-->[androidx.window:window:1.0.0] /home/Dariano/.gradle/caches/transforms-3/fbae619d48d1f00fcde51ea5c33b1077/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+46            android:name="androidx.window.extensions"
+46-->[androidx.window:window:1.0.0] /home/Dariano/.gradle/caches/transforms-3/fbae619d48d1f00fcde51ea5c33b1077/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+47            android:required="false" />
+47-->[androidx.window:window:1.0.0] /home/Dariano/.gradle/caches/transforms-3/fbae619d48d1f00fcde51ea5c33b1077/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+48        <uses-library
+48-->[androidx.window:window:1.0.0] /home/Dariano/.gradle/caches/transforms-3/fbae619d48d1f00fcde51ea5c33b1077/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+49            android:name="androidx.window.sidecar"
+49-->[androidx.window:window:1.0.0] /home/Dariano/.gradle/caches/transforms-3/fbae619d48d1f00fcde51ea5c33b1077/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+50            android:required="false" />
+50-->[androidx.window:window:1.0.0] /home/Dariano/.gradle/caches/transforms-3/fbae619d48d1f00fcde51ea5c33b1077/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+51
+52        <provider
+52-->[androidx.emoji2:emoji2:1.2.0] /home/Dariano/.gradle/caches/transforms-3/9254a1ddb2672b7c3fe90a477b514455/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+53            android:name="androidx.startup.InitializationProvider"
+53-->[androidx.emoji2:emoji2:1.2.0] /home/Dariano/.gradle/caches/transforms-3/9254a1ddb2672b7c3fe90a477b514455/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+54            android:authorities="com.example.gumbuddy.androidx-startup"
+54-->[androidx.emoji2:emoji2:1.2.0] /home/Dariano/.gradle/caches/transforms-3/9254a1ddb2672b7c3fe90a477b514455/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+55            android:exported="false" >
+55-->[androidx.emoji2:emoji2:1.2.0] /home/Dariano/.gradle/caches/transforms-3/9254a1ddb2672b7c3fe90a477b514455/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+56            <meta-data
+56-->[androidx.emoji2:emoji2:1.2.0] /home/Dariano/.gradle/caches/transforms-3/9254a1ddb2672b7c3fe90a477b514455/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+57                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+57-->[androidx.emoji2:emoji2:1.2.0] /home/Dariano/.gradle/caches/transforms-3/9254a1ddb2672b7c3fe90a477b514455/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+58                android:value="androidx.startup" />
+58-->[androidx.emoji2:emoji2:1.2.0] /home/Dariano/.gradle/caches/transforms-3/9254a1ddb2672b7c3fe90a477b514455/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+59            <meta-data
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/Dariano/.gradle/caches/transforms-3/9cce2af7ae3f0afa8242fa2568781834/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+60                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+60-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/Dariano/.gradle/caches/transforms-3/9cce2af7ae3f0afa8242fa2568781834/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+61                android:value="androidx.startup" />
+61-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/Dariano/.gradle/caches/transforms-3/9cce2af7ae3f0afa8242fa2568781834/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+62        </provider>
+63
+64        <service
+64-->[androidx.room:room-runtime:2.4.3] /home/Dariano/.gradle/caches/transforms-3/e0ae2e8c71c415e073bd4f9ce222e2b5/transformed/room-runtime-2.4.3/AndroidManifest.xml:25:9-28:40
+65            android:name="androidx.room.MultiInstanceInvalidationService"
+65-->[androidx.room:room-runtime:2.4.3] /home/Dariano/.gradle/caches/transforms-3/e0ae2e8c71c415e073bd4f9ce222e2b5/transformed/room-runtime-2.4.3/AndroidManifest.xml:26:13-74
+66            android:directBootAware="true"
+66-->[androidx.room:room-runtime:2.4.3] /home/Dariano/.gradle/caches/transforms-3/e0ae2e8c71c415e073bd4f9ce222e2b5/transformed/room-runtime-2.4.3/AndroidManifest.xml:27:13-43
+67            android:exported="false" />
+67-->[androidx.room:room-runtime:2.4.3] /home/Dariano/.gradle/caches/transforms-3/e0ae2e8c71c415e073bd4f9ce222e2b5/transformed/room-runtime-2.4.3/AndroidManifest.xml:28:13-37
+68    </application>
+69
+70</manifest>

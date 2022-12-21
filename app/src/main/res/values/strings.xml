@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Gum Buddy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="athlete_in_the_gym">Athlete in the gym</string>
+    <string name="welcome_to_gum_body">Welcome \n to GUM Body</string>
+    <string name="make_your_own_workout_plans_and_train_at_your_own_pace">Make your own workout plans \n and train at your \n own pace</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter">Enter</string>
+</resources>
