@@ -7,6 +7,7 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import com.example.gumbuddy.R
 import com.example.gumbuddy.databinding.ActivityMainBinding
+import com.google.android.material.bottomsheet.BottomSheetDialog
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -41,4 +42,5 @@ class MainActivity : AppCompatActivity() {
                 }
             }
     }
+
 }

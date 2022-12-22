@@ -29,7 +29,11 @@
         android:id="@+id/workoutFragment"
         android:name="com.example.gumbuddy.ui.fragments.WorkoutFragment"
         android:label="fragment_workout"
-        tools:layout="@layout/fragment_workout" />
+        tools:layout="@layout/fragment_workout" >
+        <action
+            android:id="@+id/action_workoutFragment_to_addTrainingFragment"
+            app:destination="@id/addTrainingFragment" />
+    </fragment>
     <fragment
         android:id="@+id/setupFragment"
         android:name="com.example.gumbuddy.ui.fragments.SetupFragment"
@@ -39,4 +43,23 @@
             android:id="@+id/action_setupFragment_to_homeFragment"
             app:destination="@id/homeFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/addTrainingFragment"
+        android:name="com.example.gumbuddy.ui.fragments.AddTrainingFragment"
+        android:label="fragment_add_training"
+        tools:layout="@layout/fragment_add_training" >
+        <action
+            android:id="@+id/action_addTrainingFragment_to_workoutFragment"
+            app:destination="@id/workoutFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/trainingFragment"
+        android:name="com.example.gumbuddy.ui.fragments.TrainingFragment"
+        android:label="fragment_training"
+        tools:layout="@layout/fragment_training" />
+    <fragment
+        android:id="@+id/exerciseFragment"
+        android:name="com.example.gumbuddy.ui.fragments.ExerciseFragment"
+        android:label="fragment_exercise"
+        tools:layout="@layout/fragment_exercise" />
 </navigation>
