@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background_color"
+    tools:context=".ui.fragments.ExerciseFragment">
+
+    <ImageView
+        android:id="@+id/workoutImage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/image_background"
+        android:elevation="6dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/zhim" />
+
+    <LinearLayout
+        android:id="@+id/llExerciseInfo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="21dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        android:background="@drawable/white_elevation_shape_r30"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintTop_toBottomOf="@id/workoutImage" >
+
+        <TextView
+            android:id="@+id/tvNameExercise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_color"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:text="Жим штанги лёжа на скамье" />
+
+        <TextView
+            android:id="@+id/tvApproaches"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_color"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:text="Подходов требуется: 4" />
+
+        <TextView
+            android:id="@+id/tvRepetitions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_color"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:text="Повторений требуется: 15" />
+
+        <TextView
+            android:id="@+id/tvWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_color"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:text="Рекомендуемый вес: 50 кг" />
+
+        <TextView
+            android:id="@+id/tvRelaxation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_color"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:text="Отдых между подходами: 2 мин." />
+
+        <LinearLayout
+            android:id="@+id/llInfoFields"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/etKilogramsField"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:hint="Kilograms"
+                android:elevation="6dp"
+                android:background="@drawable/background_edit_text"
+                android:layout_marginEnd="16dp"
+                android:textColor="@color/text_color"
+                android:textColorHint="@color/text_color"/>
+
+            <EditText
+                android:id="@+id/etRepetitionField"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:gravity="center"
+                android:hint="Reps"
+                android:elevation="6dp"
+                android:background="@drawable/background_edit_text"
+                android:layout_marginEnd="16dp"
+                android:textColor="@color/text_color"
+                android:textColorHint="@color/text_color"/>
+
+            <ImageButton
+                android:id="@+id/btnAddInfo"
+                style="@android:style/Widget.Button"
+                android:background="@drawable/button_background"
+                android:elevation="6dp"
+                android:src="@drawable/ic_add"
+                android:layout_width="56dp"
+                android:layout_height="56dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvExecutionHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_color"
+            android:textSize="16sp"
+            android:text="История выполнения" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvViewExecutionHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
