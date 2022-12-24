@@ -1,46 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<layout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:elevation="6dp"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
 
-    <LinearLayout
+    <data>
+        <variable
+            name="exercise"
+            type="com.example.gumbuddy.db.Exercise" />
+        <variable
+            name="clickListener"
+            type="com.example.gumbuddy.adapters.ExerciseListener" />
+    </data>
+
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        android:background="@drawable/white_elevation_shape_r10"
-        android:padding="14dp">
+        android:layout_marginBottom="8dp"
+        android:layout_marginHorizontal="8dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="4dp"
+        >
 
-        <ImageView
-            android:id="@+id/iv_exercise_icon"
-            android:layout_width="56dp"
-            android:layout_height="56dp"
-            android:src="@drawable/icon_zhim" />
-
-        <TextView
-            android:id="@+id/tv_exercise_name"
-            android:layout_width="0dp"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/text_color"
-            android:textSize="16sp"
-            android:layout_marginStart="16dp"
-            android:layout_gravity="center_vertical"
-            android:layout_weight="1"
-            tools:text="Жим штанги лёжа на горизонтальной скамье" />
+            android:orientation="horizontal"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            android:background="@color/white"
+            android:padding="14dp">
 
-        <CheckBox
-            android:id="@+id/exercise_check_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"/>
+            <ImageView
+                android:id="@+id/iv_exercise_icon"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:src="@{exercise.iconSrc}"
+                tools:src="@drawable/icon_zhim" />
 
-    </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView
+                android:id="@+id/tv_exercise_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_color"
+                android:textSize="16sp"
+                android:layout_marginStart="16dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:onClick="@{() -> clickListener.onClick(exercise)}"
+                android:text="@{exercise.name}"
+                tools:text="Жим штанги лёжа на горизонтальной скамье" />
+
+            <CheckBox
+                android:id="@+id/exercise_check_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</layout>
