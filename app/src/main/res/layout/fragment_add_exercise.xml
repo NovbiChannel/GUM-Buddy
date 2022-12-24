@@ -1,78 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<layout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/background_color"
-    android:padding="25dp"
-    tools:context=".ui.fragments.AddExerciseFragment">
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <EditText
-        android:id="@+id/edEnterName"
+    <data>
+        <variable
+            name="viewModel"
+            type="com.example.gumbuddy.ui.viewmodels.MuscleGroupViewModel" />
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="56dp"
-        android:layout_gravity="center_horizontal"
-        android:autofillHints=""
-        android:background="@drawable/edittext_background_color"
-        android:ems="10"
-        android:hint="Введите название..."
-        android:inputType="textPersonName"
-        android:textColor="@color/text_color"
-        android:textColorHint="@color/text_color"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvExercise"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:paddingVertical="16dp"
+        android:layout_height="match_parent"
         android:background="@color/background_color"
-        app:layout_constraintTop_toBottomOf="@id/edEnterName"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/llBtnBlock" />
+        android:paddingVertical="25dp"
+        android:paddingHorizontal="17dp"
+        tools:context=".ui.fragments.AddExerciseFragment">
 
-    <LinearLayout
-        android:id="@+id/llBtnBlock"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:orientation="horizontal"
-        android:background="@color/background_color"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" >
-
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btnCleanTraining"
-            style="@style/ButtonNegative"
-            android:layout_width="wrap_content"
+        <EditText
+            android:id="@+id/edEnterName"
+            android:layout_width="match_parent"
             android:layout_height="56dp"
-            android:layout_marginEnd="8dp"
-            android:layout_weight="1"
-            android:background="@drawable/background_edit_text"
-            android:elevation="6dp"
-            android:text="Clean"
+            android:layout_gravity="center_horizontal"
+            android:autofillHints=""
+            android:background="@drawable/edittext_background_color"
+            android:ems="10"
+            android:hint="Введите название..."
+            android:layout_marginHorizontal="8dp"
+            android:inputType="textPersonName"
             android:textColor="@color/text_color"
-            android:textSize="20sp" />
+            android:textColorHint="@color/text_color"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btnSaveTraining"
-            style="@android:style/Widget.Button"
-            android:layout_width="wrap_content"
-            android:layout_height="56dp"
-            android:layout_marginStart="8dp"
-            android:layout_weight="1"
-            android:background="@drawable/button_background"
-            android:elevation="6dp"
-            android:text="Add"
-            android:textColor="@color/white"
-            android:textSize="20sp" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/edEnterName"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            >
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvExercise"
+                app:listData="@{viewModel.exercises}"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingVertical="16dp"
+                android:background="@color/background_color"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:listitem="@layout/list_item_exercise"
+                />
+        </FrameLayout>
 
-    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/llBtnBlock"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:paddingTop="8dp"
+            android:background="@color/background_color"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnCleanTraining"
+                style="@style/ButtonNegative"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/background_edit_text"
+                android:elevation="6dp"
+                android:text="Clean"
+                android:textColor="@color/text_color"
+                android:textSize="20sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSaveTraining"
+                style="@android:style/Widget.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_background"
+                android:elevation="6dp"
+                android:text="Add"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

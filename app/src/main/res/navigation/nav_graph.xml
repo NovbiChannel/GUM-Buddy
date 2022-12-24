@@ -57,5 +57,22 @@
         android:id="@+id/muscleGroupsFragment"
         android:name="com.example.gumbuddy.ui.fragments.MuscleGroupsFragment"
         android:label="fragment_muscle_groups"
-        tools:layout="@layout/fragment_muscle_groups" />
+        tools:layout="@layout/fragment_muscle_groups" >
+        <action
+            android:id="@+id/action_muscleGroupsFragment_to_addExerciseFragment"
+            app:destination="@id/addExerciseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addExerciseFragment"
+        android:name="com.example.gumbuddy.ui.fragments.AddExerciseFragment"
+        android:label="fragment_add_exercise"
+        tools:layout="@layout/fragment_add_exercise" >
+        <action
+            android:id="@+id/action_addExerciseFragment_to_exerciseInformationFragment"
+            app:destination="@id/exerciseInformationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/exerciseInformationFragment"
+        android:name="com.example.gumbuddy.ui.fragments.ExerciseInformationFragment"
+        android:label="ExerciseInformationFragment" />
 </navigation>

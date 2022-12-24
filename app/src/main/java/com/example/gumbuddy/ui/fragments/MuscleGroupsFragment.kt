@@ -4,20 +4,22 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.constraintlayout.widget.ConstraintSet.Layout
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.viewModels
+import androidx.fragment.app.activityViewModels
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.gumbuddy.R
+import com.example.gumbuddy.adapters.GroupListener
 import com.example.gumbuddy.adapters.MuscleGroupAdapter
 import com.example.gumbuddy.databinding.FragmentMuscleGroupsBinding
-import com.example.gumbuddy.ui.viewmodels.MainViewModel
+import com.example.gumbuddy.ui.viewmodels.MuscleGroupViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class MuscleGroupsFragment : Fragment(R.layout.fragment_muscle_groups) {
 
     private lateinit var binding: FragmentMuscleGroupsBinding
+    private val viewModel: MuscleGroupViewModel by activityViewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -34,8 +36,12 @@ class MuscleGroupsFragment : Fragment(R.layout.fragment_muscle_groups) {
     }
 
     private fun setupRecyclerView() = binding.rvExercise.apply {
-        adapter = MuscleGroupAdapter()
+        adapter = MuscleGroupAdapter(GroupListener { group ->
+            viewModel.onGroupClicked(group)
+            findNavController()
+                .navigate(R.id.action_muscleGroupsFragment_to_addExerciseFragment)
+            //написать алгоритм поиска сортировки списка по айди
+        })
         layoutManager = LinearLayoutManager(requireContext())
     }
-
 }
