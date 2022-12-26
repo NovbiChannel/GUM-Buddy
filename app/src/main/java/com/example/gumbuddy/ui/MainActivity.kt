@@ -3,10 +3,12 @@ package com.example.gumbuddy.ui
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.activity.viewModels
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import com.example.gumbuddy.R
 import com.example.gumbuddy.databinding.ActivityMainBinding
+import com.example.gumbuddy.ui.viewmodels.MainViewModel
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -36,6 +38,13 @@ class MainActivity : AppCompatActivity() {
                         binding.bottomNavigationView.visibility = View.VISIBLE
                         binding.appBarLayout.visibility = View.VISIBLE
                         }
+
+                    R.id.addTrainingFragment, R.id.muscleGroupsFragment, R.id.addExerciseFragment,
+                    R.id.exerciseInformationFragment -> {
+                        binding.appBarLayout.visibility = View.VISIBLE
+                        binding.bottomNavigationView.visibility = View.GONE
+                    }
+
                     else -> {
                         binding.bottomNavigationView.visibility = View.GONE
                         binding.appBarLayout.visibility = View.GONE
@@ -43,5 +52,4 @@ class MainActivity : AppCompatActivity() {
                 }
             }
     }
-
 }

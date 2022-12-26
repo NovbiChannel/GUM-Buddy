@@ -4,41 +4,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@drawable/white_elevation_shape_r30">
-
-    <LinearLayout
-        android:id="@+id/llAddNewTraining"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:paddingHorizontal="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <TextView
-            android:id="@+id/tvNewTraining"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="34dp"
-            android:layout_marginBottom="20dp"
-            android:text="Новая тренировка"
-            android:textColor="@color/text_color"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+    android:layout_height="match_parent"
+    android:paddingVertical="25dp"
+    android:paddingHorizontal="17dp"
+    android:background="@color/background_color">
 
         <TextView
             android:id="@+id/tvNameTraining"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Название тренировки"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintEnd_toEndOf="parent"
             android:textColor="@color/text_color"
             android:textSize="12sp"
             android:textStyle="bold" />
@@ -48,50 +28,80 @@
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="20dp"
-            android:background="@drawable/edittext_background"
+            android:background="@drawable/edittext_background_color"
             android:ems="10"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvNameTraining"
             android:hint="Введите название..."
             android:inputType="textPersonName"
             android:textColor="@color/text_color"
             android:textColorHint="@color/text_color"
             android:textSize="16sp" />
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rcViewNewTraining"
+        <FrameLayout
+            android:id="@+id/flRecyclerView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="0dp"
+            android:maxHeight="200dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edNameTraining"
+            app:layout_constraintBottom_toTopOf="@id/barAddNewExercise"
+>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcViewNewTraining"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingVertical="16dp"
+                android:paddingBottom="86dp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:listitem="@layout/list_item_training_list" />
+
+        </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/barAddNewExercise"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginVertical="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@id/buttonBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/tvAddNewExercise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="Добавить новое упражнение"
+            android:textColor="@color/blue_200"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/btnAddNewExercise"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/fab_background"
+            android:elevation="3dp"
+            android:src="@drawable/ic_add" />
+    </LinearLayout>
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_marginVertical="20dp"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/tvAddNewExercise"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:layout_weight="1"
-                android:text="Добавить новое упражнение"
-                android:textColor="@color/blue_200"
-                android:textSize="16sp" />
-
-            <ImageButton
-                android:id="@+id/btnAddNewExercise"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_gravity="center_vertical"
-                android:background="@drawable/fab_background"
-                android:elevation="3dp"
-                android:src="@drawable/ic_add" />
-        </LinearLayout>
-
-        <LinearLayout
+            android:id="@+id/buttonBar"
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:background="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnCleanTraining"
@@ -119,5 +129,4 @@
                 android:textColor="@color/white"
                 android:textSize="20sp" />
         </LinearLayout>
-    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
