@@ -25,6 +25,8 @@ class MainViewModel : ViewModel() {
     val exercises: ArrayList<Exercise>
         get() = _exercises
 
+
+
     init {
         _exercises = DataSource.getExerciseData()
         _exercise.value = _exercises[0]
@@ -39,5 +41,16 @@ class MainViewModel : ViewModel() {
 
     fun updateCurrentExercise(exercise: Exercise) {
         _exercise.value = exercise
+    }
+
+    fun searchExerciseForId(groupId: Int? = _group.value?.id): MutableList<Exercise> {
+        val newExercise = mutableListOf<Exercise>()
+        val exerciseArraySize = _exercises.size
+        for (i in 0 until exerciseArraySize) {
+            if (groupId == _exercises[i].idGroup) {
+                newExercise.add(_exercises[i])
+            }
+        }
+        return newExercise
     }
 }
