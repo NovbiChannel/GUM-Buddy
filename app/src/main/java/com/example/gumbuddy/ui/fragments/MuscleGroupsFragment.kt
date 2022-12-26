@@ -10,6 +10,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.example.gumbuddy.R
 import com.example.gumbuddy.adapters.MuscleGroupListAdapter
+import com.example.gumbuddy.adapters.MuscleGroupListAdapter.MuscleGroupViewHolder
 import com.example.gumbuddy.databinding.FragmentMuscleGroupsBinding
 import com.example.gumbuddy.ui.viewmodels.MainViewModel
 import dagger.hilt.android.AndroidEntryPoint

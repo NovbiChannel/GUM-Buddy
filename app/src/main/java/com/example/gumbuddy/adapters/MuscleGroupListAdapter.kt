@@ -1,14 +1,17 @@
 package com.example.gumbuddy.adapters
 
 import android.content.Context
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.fragment.app.activityViewModels
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
 import com.example.gumbuddy.databinding.ListItemMuscleGroupBinding
 import com.example.gumbuddy.db.MuscleGroup
+import com.example.gumbuddy.ui.viewmodels.MainViewModel
 
 class MuscleGroupListAdapter(private val clickListener: (MuscleGroup) -> Unit) :
     ListAdapter<MuscleGroup, MuscleGroupListAdapter.MuscleGroupViewHolder>(DiffCallback) {
@@ -52,6 +55,7 @@ class MuscleGroupListAdapter(private val clickListener: (MuscleGroup) -> Unit) :
         val current = getItem(position)
         holder.itemView.setOnClickListener {
             clickListener(current)
+            Log.d("MyTag", "${current.id}")
         }
         holder.bind(current)
     }

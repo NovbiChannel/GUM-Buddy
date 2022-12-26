@@ -36,7 +36,8 @@ class AddExerciseFragment : Fragment() {
             this.findNavController().navigate(action)
         }
         binding.rvExercise.adapter = adapter
-        adapter.submitList(viewModel.exercises)
+        adapter.submitList(viewModel.searchExerciseForId())
+
     }
 
 }
