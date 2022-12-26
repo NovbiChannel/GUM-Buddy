@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools">
-
-    <data>
-        <variable
-            name="viewModel"
-            type="com.example.gumbuddy.ui.viewmodels.MuscleGroupViewModel" />
-    </data>
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/background_color">
+        android:background="@color/background_color"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
 
-        <ImageView
-            android:id="@+id/ivImageExercise"
-            android:layout_width="match_parent"
-            android:layout_height="250dp"
-            android:layout_marginHorizontal="16dp"
-            android:layout_marginTop="16dp"
-            android:scaleType="centerInside"
-            tools:src="@drawable/zhim"
-            android:src="@{viewModel.exercise.imgSrc}"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:elevation="6dp"
-            android:background="@drawable/white_elevation_shape_r10"/>
+    <ImageView
+        android:id="@+id/ivImageExercise"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/white_elevation_shape_r10"
+        android:elevation="6dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/zhim" />
 
         <LinearLayout
             android:id="@+id/llTitleAndDescruption"
@@ -50,7 +42,6 @@
                 android:textSize="16sp"
                 android:textStyle="bold"
                 android:textColor="@color/text_color"
-                android:text="@{viewModel.exercise.name}"
                 tools:text="Жим штанги лёжа на горизонтальной скамье" />
 
             <TextView
@@ -61,9 +52,7 @@
                 android:layout_marginTop="8dp"
                 android:textSize="14sp"
                 android:textColor="@color/text_color"
-                android:text="@{viewModel.exercise.description}"
                 tools:text="Это базовое упражнение в бодибилдинге и пауэрлифтинге со свободными весами, предназначенное для развития мышц груди, рук(трицепсов) и переднего пучка дельтовидных мышц." />
 
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
-</layout>
