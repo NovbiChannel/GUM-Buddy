@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-
-    <data>
-        <variable
-            name="viewModel"
-            type="com.example.gumbuddy.ui.viewmodels.MuscleGroupViewModel" />
-    </data>
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:paddingVertical="25dp"
         android:paddingHorizontal="17dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         tools:context=".ui.fragments.MuscleGroupsFragment">
 
         <EditText
@@ -49,6 +41,7 @@
                 android:layout_height="match_parent"
                 android:background="@color/background_color"
                 android:paddingVertical="16dp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
                 tools:listitem="@layout/list_item_muscle_group"/>
 
         </FrameLayout>
@@ -93,4 +86,3 @@
         </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-</layout>

@@ -53,8 +53,9 @@ class WorkoutFragment : Fragment(R.layout.fragment_workout) {
         val btnSave = dialog.findViewById<Button>(R.id.btnSaveTraining)
 
         btnAddTraining?.setOnClickListener {
-            findNavController().navigate(R.id.action_workoutFragment_to_muscleGroupsFragment)
-            dialog.dismiss()
+            val action = WorkoutFragmentDirections.actionWorkoutFragmentToMuscleGroupsFragment()
+            this.findNavController().navigate(action)
+            dialog.hide()
         }
 
         dialog.show()

@@ -1,59 +1,60 @@
 package com.example.gumbuddy.adapters
 
+import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import coil.load
 import com.example.gumbuddy.databinding.ListItemExerciseBinding
-import com.example.gumbuddy.db.DataSource
 import com.example.gumbuddy.db.Exercise
 
-class AddExerciseAdapter(
-    val clickListener: ExerciseListener
-) : ListAdapter<Exercise, AddExerciseAdapter.AddExerciseViewHolder>(DiffCallback){
+class AddExerciseAdapter(private val clickListener: (Exercise) -> Unit) :
+    ListAdapter<Exercise, AddExerciseAdapter.AddExerciseViewHolder>(DiffCallback) {
 
-    private val dataset = DataSource.exercises
+    private lateinit var context: Context
 
-    class AddExerciseViewHolder(
-        var binding: ListItemExerciseBinding
+    class AddExerciseViewHolder(private var binding: ListItemExerciseBinding
     ) : RecyclerView.ViewHolder(binding.root) {
-        fun bind(clickListener: ExerciseListener, exercise: Exercise) {
-            binding.exercise = exercise
-            binding.clickListener = clickListener
-            binding.executePendingBindings()
+
+        fun bind(exercise: Exercise) {
+            // Load the images into the ImageView using the Coil library.
+            binding.ivExerciseIcon.load(exercise.iconSrc)
+            binding.tvExerciseName.text = exercise.name
         }
     }
 
     companion object DiffCallback: DiffUtil.ItemCallback<Exercise>() {
         override fun areItemsTheSame(oldItem: Exercise, newItem: Exercise): Boolean {
-            return oldItem.name == newItem.name
+            return (oldItem.id == newItem.id || oldItem.idGroup == newItem.idGroup ||
+                    oldItem.name == newItem.name || oldItem.description == newItem.description ||
+                    oldItem.iconSrc == newItem.iconSrc || oldItem.imgSrc == newItem.imgSrc)
         }
 
         override fun areContentsTheSame(oldItem: Exercise, newItem: Exercise): Boolean {
-            return oldItem.iconSrc == newItem.iconSrc && oldItem.imgSrc == newItem.imgSrc
-                    && oldItem.idGroup == newItem.idGroup && oldItem.description == newItem.description
+            return oldItem == newItem
         }
 
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AddExerciseViewHolder {
-        val layoutInflater = LayoutInflater.from(parent.context)
+    override fun onCreateViewHolder(
+        parent: ViewGroup,
+        viewType: Int
+    ): AddExerciseViewHolder {
+        context = parent.context
         return AddExerciseViewHolder(
-            ListItemExerciseBinding.inflate(layoutInflater, parent, false)
+            ListItemExerciseBinding.inflate(
+                LayoutInflater.from(parent.context), parent, false
+            )
         )
     }
 
     override fun onBindViewHolder(holder: AddExerciseViewHolder, position: Int) {
-        val exercise = dataset[position]
-        holder.bind(clickListener, exercise)
+        val exercise = getItem(position)
+        holder.itemView.setOnClickListener {
+            clickListener(exercise)
+        }
+        holder.bind(exercise)
     }
-
-    override fun getItemCount(): Int {
-        return dataset.size
-    }
-}
-
-class ExerciseListener(val clickListener: (exercise: Exercise) -> Unit) {
-    fun onClick(exercise: Exercise) = clickListener(exercise)
 }

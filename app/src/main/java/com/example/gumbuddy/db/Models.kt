@@ -5,7 +5,7 @@ import androidx.annotation.DrawableRes
 data class MuscleGroup(
     val id: Int,
     val name: String,
-    @DrawableRes val imgSrc: Int
+    val imgSrc: Int
 )
 
 data class Exercise(
@@ -13,6 +13,6 @@ data class Exercise(
     val idGroup: Int,
     val name: String,
     val description: String,
-    @DrawableRes val iconSrc: Int,
-    @DrawableRes val imgSrc: Int
+    val iconSrc: Int,
+    val imgSrc: Int
 )

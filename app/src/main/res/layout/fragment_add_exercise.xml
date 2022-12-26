@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools">
-
-    <data>
-        <variable
-            name="viewModel"
-            type="com.example.gumbuddy.ui.viewmodels.MuscleGroupViewModel" />
-    </data>
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/background_color"
         android:paddingVertical="25dp"
         android:paddingHorizontal="17dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         tools:context=".ui.fragments.AddExerciseFragment">
 
         <EditText
@@ -44,7 +37,6 @@
             >
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rvExercise"
-                app:listData="@{viewModel.exercises}"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:paddingVertical="16dp"
@@ -96,4 +88,3 @@
         </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-</layout>
