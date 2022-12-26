@@ -14,5 +14,6 @@ data class Exercise(
     val name: String,
     val description: String,
     val iconSrc: Int,
-    val imgSrc: Int
+    val imgSrc: Int,
+    var checkExercise: Boolean = false
 )

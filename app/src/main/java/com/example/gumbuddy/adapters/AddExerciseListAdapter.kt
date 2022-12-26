@@ -23,6 +23,7 @@ class AddExerciseAdapter(private val clickListener: (Exercise) -> Unit) :
             binding.ivExerciseIcon.load(exercise.iconSrc)
             binding.tvExerciseName.text = exercise.name
         }
+        val checkBtn = binding.exerciseCheckBtn
     }
 
     companion object DiffCallback: DiffUtil.ItemCallback<Exercise>() {
@@ -54,6 +55,9 @@ class AddExerciseAdapter(private val clickListener: (Exercise) -> Unit) :
         val exercise = getItem(position)
         holder.itemView.setOnClickListener {
             clickListener(exercise)
+        }
+        holder.checkBtn.setOnCheckedChangeListener { buttonView, isChecked ->
+            exercise.checkExercise = isChecked
         }
         holder.bind(exercise)
     }
