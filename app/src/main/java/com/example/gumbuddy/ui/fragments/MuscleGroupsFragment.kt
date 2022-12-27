@@ -1,12 +1,13 @@
 package com.example.gumbuddy.ui.fragments
 
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
+import android.view.*
+import android.widget.ImageButton
 import android.widget.TextView
+import androidx.core.view.MenuProvider
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
+import androidx.lifecycle.Lifecycle
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.example.gumbuddy.R
@@ -33,16 +34,32 @@ class MuscleGroupsFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         val binding = FragmentMuscleGroupsBinding.bind(view)
-
-        val toolbarText = "Упражнения"
-        requireActivity().findViewById<TextView>(R.id.tvToolbarTitle).text = toolbarText
+        toolBarNav()
 
         val adapter = MuscleGroupListAdapter {
             viewModel.updateCurrentGroup(it)
             val action = MuscleGroupsFragmentDirections.actionMuscleGroupsFragmentToAddExerciseFragment()
             this.findNavController().navigate(action)
+            hideIcon()
         }
         binding.rvExercise.adapter = adapter
         adapter.submitList(viewModel.groups)
+    }
+
+    private fun toolBarNav() {
+        val toolbarText = "Упражнения"
+        val iconToolbar = requireActivity().findViewById<ImageButton>(R.id.icon_navigation)
+        requireActivity().findViewById<TextView>(R.id.tvToolbarTitle).text = toolbarText
+        iconToolbar.visibility = View.VISIBLE
+        iconToolbar.setOnClickListener {
+            val action = MuscleGroupsFragmentDirections.actionMuscleGroupsFragmentToAddTrainingFragment()
+            this.findNavController().navigate(action)
+            iconToolbar.visibility = View.INVISIBLE
+        }
+    }
+
+    private fun hideIcon() {
+        val iconToolbar = requireActivity().findViewById<ImageButton>(R.id.icon_navigation)
+        iconToolbar.visibility = View.INVISIBLE
     }
 }

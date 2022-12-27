@@ -14,7 +14,7 @@ class StatisticsFragment : Fragment(R.layout.fragment_statistics) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val toolbarText = "Statistics"
+        val toolbarText = "Статистика"
         requireActivity().findViewById<TextView>(R.id.tvToolbarTitle).text = toolbarText
     }
 }

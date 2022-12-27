@@ -27,7 +27,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val toolbarText = "Home"
+        val toolbarText = "Главная страница"
         requireActivity().findViewById<TextView>(R.id.tvToolbarTitle).text = toolbarText
     }
 }
