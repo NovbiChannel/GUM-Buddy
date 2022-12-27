@@ -2,23 +2,23 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:id="@+id/workoutFragment"
-        android:title="Workout"
+        android:title="Тренировки"
         android:icon="@drawable/training_icon"/>
 
     <item android:id="@+id/statisticsFragment"
-        android:title="Statistics"
+        android:title="Статистика"
         android:icon="@drawable/statistics_icon"/>
 
     <item android:id="@+id/homeFragment"
-        android:title="Home"
+        android:title="Домашняя"
         android:icon="@drawable/home_icon"/>
 
     <item android:id="@+id/directoryFragment"
-        android:title="Directory"
+        android:title="Справочник"
         android:icon="@drawable/derictory_icon"/>
 
     <item android:id="@+id/settingFragment"
-        android:title="Setting"
+        android:title="Настройки"
         android:icon="@drawable/setting_icon"/>
 
 </menu>

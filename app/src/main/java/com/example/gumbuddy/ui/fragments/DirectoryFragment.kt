@@ -27,7 +27,7 @@ class DirectoryFragment : Fragment(R.layout.fragment_directory) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val toolbarText = "Directory"
+        val toolbarText = "Справочник"
         requireActivity().findViewById<TextView>(R.id.tvToolbarTitle).text = toolbarText
     }
 }

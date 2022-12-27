@@ -61,6 +61,9 @@
         <action
             android:id="@+id/action_muscleGroupsFragment_to_addExerciseFragment"
             app:destination="@id/addExerciseFragment" />
+        <action
+            android:id="@+id/action_muscleGroupsFragment_to_addTrainingFragment"
+            app:destination="@id/addTrainingFragment" />
     </fragment>
     <fragment
         android:id="@+id/addExerciseFragment"
@@ -73,11 +76,18 @@
         <action
             android:id="@+id/action_addExerciseFragment_to_addTrainingFragment"
             app:destination="@id/addTrainingFragment" />
+        <action
+            android:id="@+id/action_addExerciseFragment_to_muscleGroupsFragment"
+            app:destination="@id/muscleGroupsFragment" />
     </fragment>
     <fragment
         android:id="@+id/exerciseInformationFragment"
         android:name="com.example.gumbuddy.ui.fragments.ExerciseInformationFragment"
-        android:label="ExerciseInformationFragment" />
+        android:label="ExerciseInformationFragment" >
+        <action
+            android:id="@+id/action_exerciseInformationFragment_to_addExerciseFragment"
+            app:destination="@id/addExerciseFragment" />
+    </fragment>
     <fragment
         android:id="@+id/addTrainingFragment"
         android:name="com.example.gumbuddy.ui.fragments.AddTrainingFragment"
@@ -85,5 +95,8 @@
         <action
             android:id="@+id/action_addTrainingFragment_to_muscleGroupsFragment"
             app:destination="@id/muscleGroupsFragment" />
+        <action
+            android:id="@+id/action_addTrainingFragment_to_workoutFragment"
+            app:destination="@id/workoutFragment" />
     </fragment>
 </navigation>

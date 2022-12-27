@@ -13,7 +13,7 @@ class SettingFragment : Fragment(R.layout.fragment_setting) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val toolbarText = "Setting"
+        val toolbarText = "Настройки"
         requireActivity().findViewById<TextView>(R.id.tvToolbarTitle).text = toolbarText
 
     }
