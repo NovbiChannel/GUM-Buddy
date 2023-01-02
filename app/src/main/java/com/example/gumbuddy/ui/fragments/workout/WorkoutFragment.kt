@@ -1,4 +1,4 @@
-package com.example.gumbuddy.ui.fragments
+package com.example.gumbuddy.ui.fragments.workout
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -32,7 +32,7 @@ class WorkoutFragment : Fragment() {
 
         val binding = FragmentWorkoutBinding.bind(view)
 
-        val toolbarText = "Тренировки"
+        val toolbarText = "Мои тренировки"
         requireActivity().findViewById<TextView>(R.id.tvToolbarTitle).text = toolbarText
 
         binding.fab.setOnClickListener {

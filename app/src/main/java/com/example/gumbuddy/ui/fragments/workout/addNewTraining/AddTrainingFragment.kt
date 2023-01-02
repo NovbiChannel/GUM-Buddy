@@ -1,14 +1,12 @@
-package com.example.gumbuddy.ui.fragments
+package com.example.gumbuddy.ui.fragments.workout.addNewTraining
 
 import android.os.Bundle
 import android.view.*
 import android.widget.ImageButton
 import android.widget.TextView
-import androidx.core.view.MenuProvider
 import androidx.core.view.isEmpty
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
-import androidx.lifecycle.Lifecycle
 import androidx.navigation.fragment.findNavController
 import com.example.gumbuddy.R
 import com.example.gumbuddy.adapters.WorkoutAdapter
@@ -43,8 +41,8 @@ class AddTrainingFragment: Fragment(){
             binding.rcViewNewTraining.visibility = View.VISIBLE
             val adapter = WorkoutAdapter {
                 viewModel.updateCurrentExercise(it)
-//                val action = WorkoutFragmentDirections.actionWorkoutFragmentToMuscleGroupsFragment()
-//                this.findNavController().navigate(action)
+                val action = AddTrainingFragmentDirections.actionAddTrainingFragmentToExerciseSettingFragment()
+                this.findNavController().navigate(action)
             }
             binding.rcViewNewTraining.adapter = adapter
             adapter.submitList(viewModel.addExerciseToTheTrainingList())

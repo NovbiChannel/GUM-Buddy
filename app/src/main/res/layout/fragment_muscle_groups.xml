@@ -7,7 +7,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         xmlns:app="http://schemas.android.com/apk/res-auto"
-        tools:context=".ui.fragments.MuscleGroupsFragment">
+        tools:context=".ui.fragments.workout.addNewTraining.MuscleGroupsFragment">
 
         <EditText
             android:id="@+id/edEnterName"
