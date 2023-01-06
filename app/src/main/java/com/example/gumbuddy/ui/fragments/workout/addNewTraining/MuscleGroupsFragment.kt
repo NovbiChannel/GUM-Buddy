@@ -1,18 +1,14 @@
-package com.example.gumbuddy.ui.fragments
+package com.example.gumbuddy.ui.fragments.workout.addNewTraining
 
 import android.os.Bundle
 import android.view.*
 import android.widget.ImageButton
 import android.widget.TextView
-import androidx.core.view.MenuProvider
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
-import androidx.lifecycle.Lifecycle
 import androidx.navigation.fragment.findNavController
-import androidx.recyclerview.widget.RecyclerView
 import com.example.gumbuddy.R
 import com.example.gumbuddy.adapters.MuscleGroupListAdapter
-import com.example.gumbuddy.adapters.MuscleGroupListAdapter.MuscleGroupViewHolder
 import com.example.gumbuddy.databinding.FragmentMuscleGroupsBinding
 import com.example.gumbuddy.ui.viewmodels.MainViewModel
 import dagger.hilt.android.AndroidEntryPoint
@@ -44,6 +40,10 @@ class MuscleGroupsFragment : Fragment() {
         }
         binding.rvExercise.adapter = adapter
         adapter.submitList(viewModel.groups)
+
+        binding.btnCleanTraining.setOnClickListener {
+            viewModel.clearExerciseToTheTrainingList()
+        }
     }
 
     private fun toolBarNav() {

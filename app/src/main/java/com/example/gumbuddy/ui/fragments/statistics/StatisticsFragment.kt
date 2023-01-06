@@ -1,4 +1,4 @@
-package com.example.gumbuddy.ui.fragments
+package com.example.gumbuddy.ui.fragments.statistics
 
 import android.os.Bundle
 import android.view.View
@@ -14,7 +14,7 @@ class StatisticsFragment : Fragment(R.layout.fragment_statistics) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val toolbarText = "Статистика"
+        val toolbarText = "Моя статистика"
         requireActivity().findViewById<TextView>(R.id.tvToolbarTitle).text = toolbarText
     }
 }

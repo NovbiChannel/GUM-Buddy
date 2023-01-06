@@ -55,7 +55,6 @@ class MuscleGroupListAdapter(private val clickListener: (MuscleGroup) -> Unit) :
         val current = getItem(position)
         holder.itemView.setOnClickListener {
             clickListener(current)
-            Log.d("MyTag", "${current.id}")
         }
         holder.bind(current)
     }

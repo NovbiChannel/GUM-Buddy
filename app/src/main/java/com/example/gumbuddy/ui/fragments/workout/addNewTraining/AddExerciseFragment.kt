@@ -1,5 +1,6 @@
-package com.example.gumbuddy.ui.fragments
+package com.example.gumbuddy.ui.fragments.workout.addNewTraining
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -28,6 +29,7 @@ class AddExerciseFragment : Fragment() {
         return FragmentAddExerciseBinding.inflate(inflater, container, false).root
     }
 
+    @SuppressLint("NotifyDataSetChanged")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
@@ -47,6 +49,11 @@ class AddExerciseFragment : Fragment() {
             val action = AddExerciseFragmentDirections.actionAddExerciseFragmentToAddTrainingFragment()
             this.findNavController().navigate(action)
             iconToolBarNav()
+        }
+
+        binding.btnCleanTraining.setOnClickListener {
+            viewModel.clearExerciseToTheTrainingList()
+            adapter.notifyDataSetChanged()
         }
     }
 

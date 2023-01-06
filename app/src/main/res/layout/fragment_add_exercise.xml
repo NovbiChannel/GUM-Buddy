@@ -8,7 +8,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
-        tools:context=".ui.fragments.AddExerciseFragment">
+        tools:context=".ui.fragments.workout.addNewTraining.AddExerciseFragment">
 
         <EditText
             android:id="@+id/edEnterName"

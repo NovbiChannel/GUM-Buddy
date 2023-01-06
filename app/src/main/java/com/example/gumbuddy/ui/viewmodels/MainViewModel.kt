@@ -1,7 +1,5 @@
 package com.example.gumbuddy.ui.viewmodels
 
-import android.util.Log
-import android.widget.CheckBox
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -72,5 +70,15 @@ class MainViewModel : ViewModel() {
         }
         _isFirstOpenWorkout.value = false
         return trainingList
+    }
+
+    fun clearExerciseToTheTrainingList() {
+        val exerciseArrayList = _exercises.size
+        for (i in 0 until exerciseArrayList) {
+            if (_exercises[i].checkExercise) {
+                _exercises[i].checkExercise = false
+            }
+        }
+        addExerciseToTheTrainingList().clear()
     }
 }

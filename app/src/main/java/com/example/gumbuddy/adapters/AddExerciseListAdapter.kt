@@ -59,6 +59,7 @@ class AddExerciseAdapter(private val clickListener: (Exercise) -> Unit) :
         holder.checkBtn.setOnCheckedChangeListener { buttonView, isChecked ->
             exercise.checkExercise = isChecked
         }
+        holder.checkBtn.isChecked = exercise.checkExercise
         holder.bind(exercise)
     }
 }

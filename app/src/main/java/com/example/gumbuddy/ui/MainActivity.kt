@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
                         }
 
                     R.id.addTrainingFragment, R.id.muscleGroupsFragment, R.id.addExerciseFragment,
-                    R.id.exerciseInformationFragment -> {
+                    R.id.exerciseInformationFragment, R.id.exerciseSettingFragment -> {
                         binding.appBarLayout.visibility = View.VISIBLE
                         binding.bottomNavigationView.visibility = View.GONE
                     }

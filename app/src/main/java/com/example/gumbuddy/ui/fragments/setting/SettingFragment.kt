@@ -1,4 +1,4 @@
-package com.example.gumbuddy.ui.fragments
+package com.example.gumbuddy.ui.fragments.setting
 
 import android.os.Bundle
 import android.view.View
