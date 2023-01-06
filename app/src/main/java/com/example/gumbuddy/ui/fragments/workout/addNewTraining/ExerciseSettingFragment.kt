@@ -1,5 +1,6 @@
 package com.example.gumbuddy.ui.fragments.workout.addNewTraining
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -18,6 +19,7 @@ import com.example.gumbuddy.databinding.FragmentSettingBinding
 import com.example.gumbuddy.ui.viewmodels.MainViewModel
 import com.google.android.material.tabs.TabLayoutMediator
 
+@Suppress("UNUSED_EXPRESSION")
 class ExerciseSettingFragment: Fragment() {
 
     private val fList = listOf(
@@ -54,12 +56,23 @@ class ExerciseSettingFragment: Fragment() {
         }.attach()
     }
 
+    @SuppressLint("SetTextI18n")
     private fun toolBarNav() {
         val toolbarText = viewModel.exercise.value?.name
+        val limit = 18
+        if (toolbarText!!.length > limit) {
+            val toolbarValidateText = toolbarText.substring(0, limit)
+            requireActivity().findViewById<TextView>(R.id.tvToolbarTitle).text = "$toolbarValidateText..."
+        } else {
+            requireActivity().findViewById<TextView>(R.id.tvToolbarTitle).text = toolbarText
+        }
         val iconToolbar = requireActivity().findViewById<ImageButton>(R.id.icon_navigation)
-        requireActivity().findViewById<TextView>(R.id.tvToolbarTitle).text = toolbarText
+
         iconToolbar.visibility = View.VISIBLE
         iconToolbar.setOnClickListener {
+            val action = ExerciseSettingFragmentDirections.actionExerciseSettingFragmentToAddTrainingFragment()
+            this.findNavController().navigate(action)
+            hideIcon()
         }
     }
 

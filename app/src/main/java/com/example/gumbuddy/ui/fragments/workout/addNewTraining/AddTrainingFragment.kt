@@ -1,5 +1,7 @@
 package com.example.gumbuddy.ui.fragments.workout.addNewTraining
 
+import android.annotation.SuppressLint
+import android.graphics.Color
 import android.os.Bundle
 import android.view.*
 import android.widget.ImageButton
@@ -29,16 +31,40 @@ class AddTrainingFragment: Fragment(){
         return FragmentAddTrainingBinding.inflate(inflater, container, false).root
     }
 
+    @SuppressLint("ResourceAsColor", "NotifyDataSetChanged")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
         val binding = FragmentAddTrainingBinding.bind(view)
         toolBarNav(view)
+        rcAdapterView(view)
 
+        binding.btnAddNewExercise.setOnClickListener {
+            val action = AddTrainingFragmentDirections.actionAddTrainingFragmentToMuscleGroupsFragment()
+            this.findNavController().navigate(action)
+        }
+
+        binding.btnCleanTraining.setOnClickListener {
+            viewModel.clearExerciseToTheTrainingList()
+            binding.rcViewNewTraining.removeAllViews()
+            rcAdapterView(view)
+        }
+    }
+
+    private fun rcAdapterView(view: View) {
+        val binding = FragmentAddTrainingBinding.bind(view)
+        //Условия отображения RcView, обработчик состояния кнопки сохранения данных
         if (viewModel.addExerciseToTheTrainingList().isEmpty()) {
             binding.rcViewNewTraining.visibility = View.GONE
+            //Состояние ВЫКЛЮЧЕНО
+            binding.btnSaveTraining.isEnabled = false
+            binding.btnSaveTraining.setTextColor(Color.parseColor("#696363"))
         } else {
             binding.rcViewNewTraining.visibility = View.VISIBLE
+            //Состояние ВКЛЮЧЕНО
+            binding.btnSaveTraining.isEnabled = true
+            binding.btnSaveTraining.setTextColor(Color.parseColor("#ffffff"))
+
             val adapter = WorkoutAdapter {
                 viewModel.updateCurrentExercise(it)
                 val action = AddTrainingFragmentDirections.actionAddTrainingFragmentToExerciseSettingFragment()
@@ -46,11 +72,6 @@ class AddTrainingFragment: Fragment(){
             }
             binding.rcViewNewTraining.adapter = adapter
             adapter.submitList(viewModel.addExerciseToTheTrainingList())
-        }
-
-        binding.btnAddNewExercise.setOnClickListener {
-            val action = AddTrainingFragmentDirections.actionAddTrainingFragmentToMuscleGroupsFragment()
-            this.findNavController().navigate(action)
         }
     }
 

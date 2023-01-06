@@ -97,7 +97,6 @@
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:orientation="horizontal"
-            android:background="@color/white"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0"
             app:layout_constraintEnd_toEndOf="parent"
@@ -126,7 +125,7 @@
                 android:background="@drawable/button_background"
                 android:elevation="6dp"
                 android:text="Save"
-                android:textColor="@color/white"
+                tools:textColor="@color/white"
                 android:textSize="20sp" />
         </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

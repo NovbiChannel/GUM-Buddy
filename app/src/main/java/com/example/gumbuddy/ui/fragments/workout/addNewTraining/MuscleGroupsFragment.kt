@@ -40,6 +40,10 @@ class MuscleGroupsFragment : Fragment() {
         }
         binding.rvExercise.adapter = adapter
         adapter.submitList(viewModel.groups)
+
+        binding.btnCleanTraining.setOnClickListener {
+            viewModel.clearExerciseToTheTrainingList()
+        }
     }
 
     private fun toolBarNav() {
