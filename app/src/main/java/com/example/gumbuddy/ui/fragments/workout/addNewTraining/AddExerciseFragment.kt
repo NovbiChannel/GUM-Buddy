@@ -75,5 +75,4 @@ class AddExerciseFragment : Fragment() {
         val iconToolbar = requireActivity().findViewById<ImageButton>(R.id.icon_navigation)
         iconToolbar.setImageResource(R.drawable.ic_close_32)
     }
-
 }

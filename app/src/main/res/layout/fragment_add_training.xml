@@ -13,7 +13,7 @@
             android:id="@+id/tvNameTraining"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Название тренировки"
+            android:text="@string/training_name"
             android:layout_marginTop="20dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -33,7 +33,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tvNameTraining"
-            android:hint="Введите название..."
+            android:hint="@string/add_name"
             android:inputType="textPersonName"
             android:textColor="@color/text_color"
             android:textColorHint="@color/text_color"
@@ -78,7 +78,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
-            android:text="Добавить новое упражнение"
+            android:text="@string/add_new_exercise"
             android:textColor="@color/blue_200"
             android:textSize="16sp" />
 
@@ -111,7 +111,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/background_edit_text"
                 android:elevation="6dp"
-                android:text="Clean"
+                android:text="@string/clear"
                 android:textColor="@color/text_color"
                 android:textSize="20sp" />
 
@@ -124,7 +124,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_background"
                 android:elevation="6dp"
-                android:text="Save"
+                android:text="@string/save"
                 tools:textColor="@color/white"
                 android:textSize="20sp" />
         </LinearLayout>

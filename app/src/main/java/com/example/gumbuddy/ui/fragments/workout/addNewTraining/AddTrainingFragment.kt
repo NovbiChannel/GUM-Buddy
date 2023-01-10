@@ -65,6 +65,19 @@ class AddTrainingFragment: Fragment(){
             binding.btnSaveTraining.isEnabled = true
             binding.btnSaveTraining.setTextColor(Color.parseColor("#ffffff"))
 
+            binding.btnSaveTraining.setOnClickListener {
+                if (binding.edNameTraining.text.isEmpty()) {
+                    Snackbar.make(
+                        view,
+                        "Введите название тренировки",
+                        Snackbar.LENGTH_SHORT
+                    ).show()
+                } else {
+                    val action = AddTrainingFragmentDirections.actionAddTrainingFragmentToWorkoutFragment()
+                    this.findNavController().navigate(action)
+                }
+            }
+
             val adapter = WorkoutAdapter {
                 viewModel.updateCurrentExercise(it)
                 val action = AddTrainingFragmentDirections.actionAddTrainingFragmentToExerciseSettingFragment()
