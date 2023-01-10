@@ -21,6 +21,7 @@ import com.example.gumbuddy.databinding.FragmentExerciseSettingPyramidBinding
 import com.example.gumbuddy.databinding.FragmentSettingBinding
 import com.example.gumbuddy.db.ExerciseSettingLinear
 import com.example.gumbuddy.other.Constants.KEY_CLEAN
+import com.example.gumbuddy.other.Constants.KEY_CLEAR
 import com.example.gumbuddy.other.Constants.KEY_LINEAR
 import com.example.gumbuddy.other.Constants.KEY_PYRAMID
 import com.example.gumbuddy.ui.viewmodels.MainViewModel
@@ -53,6 +54,7 @@ class ExerciseSettingFragment: Fragment() {
         super.onViewCreated(view, savedInstanceState)
         init()
         toolBarNav()
+        viewModel.updateDataFragment(KEY_CLEAN)
     }
     //Инициализация ViewPager, слушатели нажатий для кнопок выполняемых действий
     private fun init() = with(binding) {
@@ -67,6 +69,10 @@ class ExerciseSettingFragment: Fragment() {
             } else {
                 viewModel.updateDataFragment(KEY_PYRAMID)
             }
+        }
+
+        binding.btnCleanTraining.setOnClickListener {
+            viewModel.updateDataFragment(KEY_CLEAR)
         }
     }
 
