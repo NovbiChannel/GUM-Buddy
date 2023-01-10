@@ -12,6 +12,8 @@ import androidx.navigation.fragment.findNavController
 import coil.load
 import com.example.gumbuddy.R
 import com.example.gumbuddy.databinding.FragmentExerciseInformationBinding
+import com.example.gumbuddy.databinding.FragmentExerciseSettingLinearBinding
+import com.example.gumbuddy.databinding.FragmentExerciseSettingPyramidBinding
 import com.example.gumbuddy.ui.viewmodels.MainViewModel
 
 class ExerciseInformationFragment: Fragment() {

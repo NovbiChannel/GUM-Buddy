@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/background_color"
+    android:id="@+id/fragment_linear"
     tools:context=".ui.fragments.workout.addNewTraining.ExerciseSettingLinearFragment">
 
     <LinearLayout
@@ -27,7 +28,9 @@
                 android:textColor="@color/text_color"
                 android:text="Подходы"
                 android:textStyle="bold" />
+
             <EditText
+                android:id="@+id/edApproach"
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
                 android:textSize="16sp"
@@ -53,7 +56,9 @@
                 android:textColor="@color/text_color"
                 android:text="Повторений"
                 android:textStyle="bold" />
+
             <EditText
+                android:id="@+id/edRepeat"
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
                 android:textSize="16sp"
@@ -84,12 +89,13 @@
             android:orientation="horizontal" >
 
             <EditText
+                android:id="@+id/edWeight"
                 android:layout_width="0dp"
                 android:layout_height="56dp"
                 android:textSize="16sp"
                 android:textColor="@color/text_color"
                 android:textColorHint="@color/text_color"
-                android:inputType="number"
+                android:inputType="numberDecimal"
                 android:hint="Вес"
                 android:textStyle="bold"
                 android:background="@drawable/edittext_background_color"
@@ -99,14 +105,18 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_gravity="bottom">
+
                 <RadioButton
+                    android:id="@+id/kg"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
+                    android:checked="true"
                     android:textSize="16sp"
                     android:textColor="@color/text_color"
                     android:text="кг" />
 
                 <RadioButton
+                    android:id="@+id/percentOfKg"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:textSize="16sp"
@@ -132,6 +142,7 @@
             android:text="Комментарий" />
 
         <EditText
+            android:id="@+id/edComment"
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:textSize="16sp"

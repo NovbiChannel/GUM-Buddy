@@ -18,7 +18,7 @@
             android:background="@drawable/edittext_background_color"
             android:ems="10"
             android:layout_marginHorizontal="8dp"
-            android:hint="Введите название..."
+            android:hint="@string/add_name"
             android:inputType="textPersonName"
             android:textColor="@color/text_color"
             android:textColorHint="@color/text_color"
@@ -66,7 +66,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/background_edit_text"
                 android:elevation="6dp"
-                android:text="Clean"
+                android:text="@string/clear"
                 android:textColor="@color/text_color"
                 android:textSize="20sp" />
 
@@ -79,7 +79,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_background"
                 android:elevation="6dp"
-                android:text="Add"
+                android:text="@string/add"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
 

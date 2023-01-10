@@ -3,9 +3,15 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="athlete_in_the_gym">Athlete in the gym</string>
-    <string name="welcome_to_gum_body">Welcome \n to GUM Body</string>
-    <string name="make_your_own_workout_plans_and_train_at_your_own_pace">Make your own workout plans \n and train at your \n own pace</string>
-    <string name="enter_your_name">Enter your name</string>
-    <string name="enter">Enter</string>
+    <string name="welcome_to_gum_body">Добро пожаловать \n в GUM Body</string>
+    <string name="make_your_own_workout_plans_and_train_at_your_own_pace">Создай собственный план тренировок\nи тренируйся в своём темпе</string>
+    <string name="enter_your_name">Как тебя зовут?</string>
+    <string name="enter">Войти</string>
     <string name="floating_action_bar">Floating Action Bar</string>
+    <string name="clear">Очистить</string>
+    <string name="add">Добавить</string>
+    <string name="add_name">Введите название...</string>
+    <string name="training_name">Название тренировки</string>
+    <string name="add_new_exercise">Добавить новое упражнение</string>
+    <string name="save">Сохранить</string>
 </resources>
