@@ -58,11 +58,13 @@ class AddTrainingFragment: Fragment(){
             binding.rcViewNewTraining.visibility = View.GONE
             //Состояние ВЫКЛЮЧЕНО
             binding.btnSaveTraining.isEnabled = false
+            binding.btnCleanTraining.isEnabled = false
             binding.btnSaveTraining.setTextColor(Color.parseColor("#696363"))
         } else {
             binding.rcViewNewTraining.visibility = View.VISIBLE
             //Состояние ВКЛЮЧЕНО
             binding.btnSaveTraining.isEnabled = true
+            binding.btnCleanTraining.isEnabled = true
             binding.btnSaveTraining.setTextColor(Color.parseColor("#ffffff"))
 
             binding.btnSaveTraining.setOnClickListener {
