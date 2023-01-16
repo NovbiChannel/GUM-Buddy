@@ -1,8 +1,10 @@
 package com.example.gumbuddy.adapters
 
 import android.content.Context
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.lifecycle.viewmodel.viewModelFactory
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
@@ -10,6 +12,7 @@ import coil.load
 import com.example.gumbuddy.databinding.ListItemExerciseBinding
 import com.example.gumbuddy.databinding.ListItemTrainingListBinding
 import com.example.gumbuddy.db.Exercise
+import com.example.gumbuddy.ui.viewmodels.MainViewModel
 
 class WorkoutAdapter(private val clickListener: (Exercise) -> Unit) :
     ListAdapter<Exercise, WorkoutAdapter.WorkoutViewHolder>(DiffCallback){
@@ -52,6 +55,7 @@ class WorkoutAdapter(private val clickListener: (Exercise) -> Unit) :
         )
     }
 
+    //При нажатии на айтем мы получаем все данные его сущности
     override fun onBindViewHolder(holder: WorkoutViewHolder, position: Int) {
         val exercise = getItem(position)
         holder.itemView.setOnClickListener {

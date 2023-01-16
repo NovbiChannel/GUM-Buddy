@@ -16,7 +16,8 @@ data class Exercise(
     val description: String,
     val iconSrc: Int,
     val imgSrc: Int,
-    var checkExercise: Boolean = false
+    var checkExercise: Boolean = false,
+    var idSetting: Int = 0
 )
 
 @Entity(tableName = "training_table")

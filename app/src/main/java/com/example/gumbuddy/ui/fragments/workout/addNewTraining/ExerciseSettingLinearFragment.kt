@@ -1,18 +1,24 @@
 package com.example.gumbuddy.ui.fragments.workout.addNewTraining
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
+import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import com.example.gumbuddy.databinding.FragmentExerciseSettingLinearBinding
 import com.example.gumbuddy.db.ExerciseSettingLinear
+import com.example.gumbuddy.other.Constants.KEY_APPLY
 import com.example.gumbuddy.other.Constants.KEY_CLEAR
 import com.example.gumbuddy.other.Constants.KEY_LINEAR
 import com.example.gumbuddy.ui.viewmodels.MainViewModel
 import com.google.android.material.snackbar.Snackbar
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import timber.log.Timber
 
 class ExerciseSettingLinearFragment : Fragment() {
 
@@ -38,10 +44,27 @@ class ExerciseSettingLinearFragment : Fragment() {
                 clearExerciseSettingLinear()
             }
         }
+        viewModel.exercise.observe(viewLifecycleOwner) { keyId ->
+            if (keyId.idSetting != 0) {
+                Log.d("MyLog", "KeySettingID = ${keyId.idSetting}")
+                lifecycleScope.launch {
+                    // Заполнение формы при условии если настройки были выполненны
+                    val idSetting = viewModel.exercise.value!!.idSetting
+                    val model = viewModel.getIdExerciseSettingLinear(idSetting)
 
+                    binding.edApproach.setText(model.approach.toString())
+                    binding.edRepeat.setText(model.repeat.toString())
+                    binding.edWeight.setText(model.weight.toString())
+                    binding.edComment.setText(model.comment)
+                }
+            }
+        }
     }
+
     //Сохранение данных линейной настройки упражнения в базу данных Room
     private fun saveExerciseSettingLinear(view: View) {
+        Log.d("MyLog", "SaveFunction вызвана")
+
         val idExercise = viewModel.exercise.value?.id
         val approach = binding.edApproach.text
         val repeat = binding.edRepeat.text
@@ -63,10 +86,19 @@ class ExerciseSettingLinearFragment : Fragment() {
             if (comment.isEmpty()) {
                 settingLinear.comment = ""
                 viewModel.insertExerciseSettingLinear(settingLinear)
-                this.findNavController().navigate(action)
+                viewModel.updateDataFragment(KEY_APPLY)
+                lifecycleScope.launch {
+                    viewModel.saveIdExerciseSettingLinear()
+                }
+                findNavController().navigate(action)
+
             } else {
                 viewModel.insertExerciseSettingLinear(settingLinear)
-                this.findNavController().navigate(action)
+                viewModel.updateDataFragment(KEY_APPLY)
+                lifecycleScope.launch {
+                    viewModel.saveIdExerciseSettingLinear()
+                }
+                findNavController().navigate(action)
             }
         }
     }

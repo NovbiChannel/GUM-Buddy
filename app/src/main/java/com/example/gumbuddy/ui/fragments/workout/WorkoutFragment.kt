@@ -36,7 +36,7 @@ class WorkoutFragment : Fragment() {
         requireActivity().findViewById<TextView>(R.id.tvToolbarTitle).text = toolbarText
 
         binding.fab.setOnClickListener {
-            val action = WorkoutFragmentDirections.actionWorkoutFragmentToAddTrainingFragment()
+            val action = WorkoutFragmentDirections.actionWorkoutFragmentToMuscleGroupsFragment()
             this.findNavController().navigate(action)
         }
     }

@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    tools:background="@drawable/gradient_for_background_4x">
+
+<LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:background="@color/background_color"
     android:id="@+id/fragment_linear"
     tools:context=".ui.fragments.workout.addNewTraining.ExerciseSettingLinearFragment">
 
@@ -25,7 +28,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
-                android:textColor="@color/text_color"
+                android:fontFamily="@font/jura_bold"
+                android:textColor="#60AB06"
                 android:text="Подходы"
                 android:textStyle="bold" />
 
@@ -34,12 +38,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
                 android:textSize="16sp"
-                android:textColor="@color/text_color"
+                android:textColor="#60AB06"
                 android:textColorHint="@color/text_color"
+                android:fontFamily="@font/jura_regular"
                 android:inputType="number"
                 android:hint="0"
                 android:background="@drawable/edittext_background_color"
-                android:textStyle="bold" />
+                />
         </LinearLayout>
 
         <LinearLayout
@@ -53,7 +58,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
-                android:textColor="@color/text_color"
+                android:textColor="#60AB06"
+                android:fontFamily="@font/jura_bold"
                 android:text="Повторений"
                 android:textStyle="bold" />
 
@@ -62,12 +68,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
                 android:textSize="16sp"
-                android:textColor="@color/text_color"
+                android:textColor="#60AB06"
                 android:textColorHint="@color/text_color"
+                android:fontFamily="@font/jura_regular"
                 android:inputType="number"
                 android:hint="0"
                 android:background="@drawable/edittext_background_color"
-                android:textStyle="bold" />
+                />
         </LinearLayout>
     </LinearLayout>
     <LinearLayout
@@ -78,7 +85,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/text_color"
+            android:textColor="#60AB06"
+            android:fontFamily="@font/jura_bold"
             android:textStyle="bold"
             android:textSize="16sp"
             android:text="При необходимости укажите вес" />
@@ -93,8 +101,9 @@
                 android:layout_width="0dp"
                 android:layout_height="56dp"
                 android:textSize="16sp"
-                android:textColor="@color/text_color"
+                android:textColor="#60AB06"
                 android:textColorHint="@color/text_color"
+                android:fontFamily="@font/jura_regular"
                 android:inputType="numberDecimal"
                 android:hint="Вес"
                 android:textStyle="bold"
@@ -113,6 +122,7 @@
                     android:checked="true"
                     android:textSize="16sp"
                     android:textColor="@color/text_color"
+                    android:fontFamily="@font/jura_regular"
                     android:text="кг" />
 
                 <RadioButton
@@ -121,6 +131,7 @@
                     android:layout_height="match_parent"
                     android:textSize="16sp"
                     android:textColor="@color/text_color"
+                    android:fontFamily="@font/jura_regular"
                     android:text=" % от макс. веса" />
             </RadioGroup>
 
@@ -137,8 +148,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:textColor="@color/text_color"
-            android:textStyle="bold"
+            android:textColor="#60AB06"
+            android:fontFamily="@font/jura_bold"
             android:text="Комментарий" />
 
         <EditText
@@ -146,11 +157,12 @@
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:textSize="16sp"
-            android:textColor="@color/text_color"
+            android:textColor="#60AB06"
             android:textColorHint="@color/text_color"
             android:inputType="text"
+            android:fontFamily="@font/jura_regular"
             android:hint="Комментарий (необязательно)"
-            android:textStyle="bold"
             android:background="@drawable/edittext_background_color"/>
     </LinearLayout>
 </LinearLayout>
+</ScrollView>

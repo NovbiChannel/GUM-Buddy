@@ -3,6 +3,7 @@ package com.example.gumbuddy.ui.fragments.workout.addNewTraining
 import android.annotation.SuppressLint
 import android.graphics.Color
 import android.os.Bundle
+import android.util.Log
 import android.view.*
 import android.widget.ImageButton
 import android.widget.TextView
@@ -44,11 +45,11 @@ class AddTrainingFragment: Fragment(){
             this.findNavController().navigate(action)
         }
 
-        binding.btnCleanTraining.setOnClickListener {
-            viewModel.clearExerciseToTheTrainingList()
-            binding.rcViewNewTraining.removeAllViews()
-            rcAdapterView(view)
-        }
+//        binding.btnCleanTraining.setOnClickListener {
+//            viewModel.clearExerciseToTheTrainingList()
+//            binding.rcViewNewTraining.removeAllViews()
+//            rcAdapterView(view)
+//        }
     }
 
     private fun rcAdapterView(view: View) {
@@ -58,14 +59,14 @@ class AddTrainingFragment: Fragment(){
             binding.rcViewNewTraining.visibility = View.GONE
             //Состояние ВЫКЛЮЧЕНО
             binding.btnSaveTraining.isEnabled = false
-            binding.btnCleanTraining.isEnabled = false
+//            binding.btnCleanTraining.isEnabled = false
             binding.btnSaveTraining.setTextColor(Color.parseColor("#696363"))
         } else {
             binding.rcViewNewTraining.visibility = View.VISIBLE
             //Состояние ВКЛЮЧЕНО
             binding.btnSaveTraining.isEnabled = true
-            binding.btnCleanTraining.isEnabled = true
-            binding.btnSaveTraining.setTextColor(Color.parseColor("#ffffff"))
+//            binding.btnCleanTraining.isEnabled = true
+            binding.btnSaveTraining.setTextColor(Color.parseColor("#242523"))
 
             binding.btnSaveTraining.setOnClickListener {
                 if (binding.edNameTraining.text.isEmpty()) {
