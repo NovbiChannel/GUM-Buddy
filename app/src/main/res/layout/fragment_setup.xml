@@ -12,6 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scaleType="centerCrop"
+        android:src="@drawable/first_start"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -40,7 +41,8 @@
             android:gravity="center"
             android:textSize="20sp"
             android:text="@string/welcome_to_gum_body"
-            android:textColor="@color/blue_500"/>
+            android:fontFamily="@font/russo_one_regular"
+            android:textColor="#60AB06"/>
 
         <TextView
             android:layout_width="336dp"
@@ -49,13 +51,14 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:textSize="16sp"
+            android:fontFamily="@font/jura_regular"
             android:text="@string/make_your_own_workout_plans_and_train_at_your_own_pace"
-            android:textColor="@color/text_color" />
+            android:textColor="#AFB1B6" />
 
         <EditText
             android:id="@+id/etNameUser"
             android:layout_width="297dp"
-            android:layout_height="30dp"
+            android:layout_height="56dp"
             android:layout_marginHorizontal="32dp"
             android:layout_marginTop="18dp"
             android:gravity="center"
@@ -63,13 +66,14 @@
             android:ems="10"
             android:background="@drawable/edittext_background"
             android:hint="@string/enter_your_name"
+            android:fontFamily="@font/jura_regular"
             android:inputType="textPersonName"
-            android:textColorHint="@color/text_color"
-            android:textColor="@color/text_color"
+            android:textColorHint="#AFB1B6"
+            android:textColor="#60AB06"
             android:textSize="16sp"
             android:autofillHints="" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/loginButton"
             style="@android:style/Widget.Button"
             android:layout_width="297dp"
@@ -77,10 +81,10 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginHorizontal="32dp"
             android:layout_marginVertical="16dp"
-            android:elevation="5dp"
             android:background="@drawable/button_background"
             android:text="@string/enter"
-            android:textColor="@color/white"
+            android:fontFamily="@font/russo_one_regular"
+            android:textColor="#242523"
             android:textSize="20sp" />
 
     </LinearLayout>

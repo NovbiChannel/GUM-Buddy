@@ -31,8 +31,8 @@
         android:label="fragment_workout"
         tools:layout="@layout/fragment_workout" >
         <action
-            android:id="@+id/action_workoutFragment_to_addTrainingFragment"
-            app:destination="@id/addTrainingFragment" />
+            android:id="@+id/action_workoutFragment_to_muscleGroupsFragment"
+            app:destination="@id/muscleGroupsFragment" />
     </fragment>
     <fragment
         android:id="@+id/setupFragment"

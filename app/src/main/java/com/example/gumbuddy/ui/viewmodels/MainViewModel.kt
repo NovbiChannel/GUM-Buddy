@@ -1,5 +1,6 @@
 package com.example.gumbuddy.ui.viewmodels
 
+import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -7,7 +8,7 @@ import androidx.lifecycle.viewModelScope
 import com.example.gumbuddy.db.*
 import com.example.gumbuddy.repository.MainRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
-import kotlinx.coroutines.launch
+import kotlinx.coroutines.*
 import javax.inject.Inject
 
 @HiltViewModel
@@ -34,6 +35,7 @@ class MainViewModel @Inject constructor(
     private var _exercises: ArrayList<Exercise> = ArrayList()
     val exercises: ArrayList<Exercise>
         get() = _exercises
+
 
     init {
         _exercises = DataSource.getExerciseData()
@@ -76,12 +78,22 @@ class MainViewModel @Inject constructor(
         }
         return trainingList
     }
+
+    //Получить ID последней записи в базе
+    private fun updateLastIdSettingLinear():Int = mainRepository.getLastIdExerciseSettingLinear()
+    //Записать ID настройки в информацию об упражнении
+    suspend fun saveIdExerciseSettingLinear() = withContext(Dispatchers.IO) {
+        _exercise.value?.idSetting = updateLastIdSettingLinear()
+        Log.d("MyLog", "ID последней записи в базе: ${exercise.value?.idSetting}")
+    }
+
     //Установка дефолтного значения проверки выбора
     fun clearExerciseToTheTrainingList() {
         val exerciseArrayList = _exercises.size
         for (i in 0 until exerciseArrayList) {
-            if (_exercises[i].checkExercise) {
+            if (_exercises[i].checkExercise || _exercises[i].idSetting != 0) {
                 _exercises[i].checkExercise = false
+                _exercises[i].idSetting = 0
             }
         }
         addExerciseToTheTrainingList().clear()
@@ -97,5 +109,10 @@ class MainViewModel @Inject constructor(
     //Сохранение настроек упражнения пирамидного типа в базу данных Room
     fun insertExerciseSettingPyramid(exerciseSettingPyramid: ExerciseSettingPyramid) = viewModelScope.launch {
         mainRepository.insertExerciseSettingPyramid(exerciseSettingPyramid)
+    }
+
+    //Получить все настройки по ID записи
+    suspend fun getIdExerciseSettingLinear(id: Int): ExerciseSettingLinear = withContext(Dispatchers.IO) {
+        mainRepository.getIdExerciseSettingLinear(id)
     }
 }

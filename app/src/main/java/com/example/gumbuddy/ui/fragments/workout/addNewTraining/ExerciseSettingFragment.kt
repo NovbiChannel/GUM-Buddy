@@ -2,24 +2,16 @@ package com.example.gumbuddy.ui.fragments.workout.addNewTraining
 
 import android.annotation.SuppressLint
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.EditText
 import android.widget.ImageButton
 import android.widget.TextView
-import androidx.activity.result.ActivityResultLauncher
-import androidx.core.os.bundleOf
 import androidx.fragment.app.*
 import androidx.navigation.fragment.findNavController
 import com.example.gumbuddy.R
 import com.example.gumbuddy.adapters.VpAdapter
 import com.example.gumbuddy.databinding.FragmentExerciseSettingBinding
-import com.example.gumbuddy.databinding.FragmentExerciseSettingLinearBinding
-import com.example.gumbuddy.databinding.FragmentExerciseSettingPyramidBinding
-import com.example.gumbuddy.databinding.FragmentSettingBinding
-import com.example.gumbuddy.db.ExerciseSettingLinear
 import com.example.gumbuddy.other.Constants.KEY_CLEAN
 import com.example.gumbuddy.other.Constants.KEY_CLEAR
 import com.example.gumbuddy.other.Constants.KEY_LINEAR
@@ -54,10 +46,10 @@ class ExerciseSettingFragment: Fragment() {
         super.onViewCreated(view, savedInstanceState)
         init()
         toolBarNav()
-        viewModel.updateDataFragment(KEY_CLEAN)
     }
     //Инициализация ViewPager, слушатели нажатий для кнопок выполняемых действий
     private fun init() = with(binding) {
+        viewModel.updateDataFragment(KEY_CLEAN)
         val adapter = VpAdapter(activity as FragmentActivity, fList)
         vp2.adapter = adapter
         TabLayoutMediator(tabLayout, vp2) {
@@ -79,7 +71,7 @@ class ExerciseSettingFragment: Fragment() {
     @SuppressLint("SetTextI18n")
     private fun toolBarNav() {
         val toolbarText = viewModel.exercise.value?.name
-        val limit = 18
+        val limit = 15
         if (toolbarText!!.length > limit) {
             val toolbarValidateText = toolbarText.substring(0, limit)
             requireActivity().findViewById<TextView>(R.id.tvToolbarTitle).text = "$toolbarValidateText..."
@@ -93,7 +85,7 @@ class ExerciseSettingFragment: Fragment() {
             val action = ExerciseSettingFragmentDirections.actionExerciseSettingFragmentToAddTrainingFragment()
             this.findNavController().navigate(action)
             hideIcon()
-            //Очиска значения ключа данных для фрагментов (переписать единой функцией во вьюмодели)
+            //Очиска значения ключа данных для фрагментов
             viewModel.updateDataFragment(KEY_CLEAN)
         }
     }

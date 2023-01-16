@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:background="@drawable/gradient_for_background_4x"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:paddingTop="16dp"
@@ -17,12 +19,12 @@
         app:itemTextColor="@drawable/bottom_nav_selector"
         app:itemIconTint="@drawable/bottom_nav_selector"
         app:tabTextColor="@color/text_color"
-        app:tabSelectedTextColor="@color/text_color"
+        app:tabSelectedTextColor="#242523"
         app:tabIndicatorHeight="54dp"
         android:paddingHorizontal="1dp"
         android:paddingVertical="1dp"
         app:tabIndicatorGravity="stretch"
-        app:tabIndicatorColor="@color/white"
+        app:tabIndicatorColor="#60AB06"
         app:tabIndicator="@drawable/white_elevation_shape_r10"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -65,9 +67,8 @@
             android:layout_width="wrap_content"
             android:layout_height="56dp"
             android:layout_marginEnd="8dp"
-            android:layout_weight="1"
-            android:background="@drawable/background_edit_text"
-            android:elevation="6dp"
+            android:fontFamily="@font/russo_one_regular"
+            android:background="#00000000"
             android:text="@string/clear"
             android:textColor="@color/text_color"
             android:textSize="20sp" />
@@ -75,14 +76,14 @@
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnSaveTraining"
             style="@android:style/Widget.Button"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="56dp"
             android:layout_marginStart="8dp"
             android:layout_weight="1"
             android:background="@drawable/button_background"
-            android:elevation="6dp"
+            android:fontFamily="@font/russo_one_regular"
             android:text="@string/save"
-            android:textColor="@color/white"
+            android:textColor="#242523"
             android:textSize="20sp" />
     </LinearLayout>
 

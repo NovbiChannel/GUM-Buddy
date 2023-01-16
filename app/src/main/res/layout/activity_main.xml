@@ -8,9 +8,19 @@
     android:layout_height="match_parent"
     tools:context=".ui.MainActivity" >
 
-    <com.google.android.material.appbar.AppBarLayout
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@drawable/gradient_for_background_4x"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
         android:id="@+id/appBarLayout"
-        android:background="@color/white"
+        android:background="#00000000"
         android:layout_width="match_parent"
         android:layout_height="?android:attr/actionBarSize"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,43 +40,49 @@
                 android:layout_height="56dp"
                 android:src="@drawable/ic_close_32"
                 android:visibility="invisible"
-                android:background="@color/white" />
+                android:background="#00000000" />
 
             <TextView
                 android:id="@+id/tvToolbarTitle"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:paddingEnd="52dp"
+                android:textAllCaps="true"
+                android:fontFamily="@font/russo_one_regular"
                 android:gravity="center"
                 android:text="@string/app_name"
                 tools:text="Жим штанги лёжа на горизонтальной скамье"
-                android:textColor="@color/blue_500"
+                android:textColor="#E4E4E4"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
         </com.google.android.material.appbar.MaterialToolbar>
-    </com.google.android.material.appbar.AppBarLayout>
+    </LinearLayout>
 
-        <androidx.fragment.app.FragmentContainerView
-            android:id="@+id/navHostFragment"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:name="androidx.navigation.fragment.NavHostFragment"
-            app:defaultNavHost="true"
-            app:navGraph="@navigation/nav_graph"
-            app:layout_constraintBottom_toTopOf="@id/bottomNavigationView"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/appBarLayout"/>
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/navHostFragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:defaultNavHost="true"
+        app:layout_constraintBottom_toTopOf="@id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/appBarLayout"
+        app:layout_constraintVertical_bias="0.0"
+        app:navGraph="@navigation/nav_graph" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"
         android:layout_width="match_parent"
-        android:layout_height="?android:attr/actionBarSize"
+        android:layout_height="90dp"
         app:menu="@menu/bottom_nav_menu"
         app:itemTextColor="@drawable/bottom_nav_selector"
         app:itemIconTint="@drawable/bottom_nav_selector"
-        android:background="@color/white"
+        app:itemPaddingTop="16dp"
+        app:itemPaddingBottom="35dp"
+        android:background="@drawable/bottom_navigation_bar_style_shape"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

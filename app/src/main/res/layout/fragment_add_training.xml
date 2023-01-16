@@ -6,20 +6,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingVertical="25dp"
-    android:paddingHorizontal="17dp"
-    android:background="@color/background_color">
+    tools:background="@drawable/gradient_for_background_4x"
+    android:paddingHorizontal="17dp">
 
         <TextView
             android:id="@+id/tvNameTraining"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/training_name"
+            android:fontFamily="@font/jura_regular"
             android:layout_marginTop="20dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintHorizontal_bias="0"
             app:layout_constraintEnd_toEndOf="parent"
-            android:textColor="@color/text_color"
+            android:textColor="#60AB06"
             android:textSize="12sp"
             android:textStyle="bold" />
 
@@ -34,8 +35,9 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tvNameTraining"
             android:hint="@string/add_name"
+            android:fontFamily="@font/jura_regular"
             android:inputType="textPersonName"
-            android:textColor="@color/text_color"
+            android:textColor="#60AB06"
             android:textColorHint="@color/text_color"
             android:textSize="16sp" />
 
@@ -48,7 +50,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/edNameTraining"
-            app:layout_constraintBottom_toTopOf="@id/barAddNewExercise"
+            app:layout_constraintBottom_toTopOf="@id/buttonBar"
 >
 
             <androidx.recyclerview.widget.RecyclerView
@@ -62,36 +64,6 @@
 
         </FrameLayout>
 
-    <LinearLayout
-        android:id="@+id/barAddNewExercise"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_marginVertical="20dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toTopOf="@id/buttonBar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
-
-        <TextView
-            android:id="@+id/tvAddNewExercise"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_weight="1"
-            android:text="@string/add_new_exercise"
-            android:textColor="@color/blue_200"
-            android:textSize="16sp" />
-
-        <ImageButton
-            android:id="@+id/btnAddNewExercise"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_gravity="center_vertical"
-            android:background="@drawable/fab_background"
-            android:elevation="3dp"
-            android:src="@drawable/ic_add" />
-    </LinearLayout>
-
         <LinearLayout
             android:id="@+id/buttonBar"
             android:layout_width="match_parent"
@@ -103,29 +75,28 @@
             app:layout_constraintBottom_toBottomOf="parent">
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btnCleanTraining"
-                style="@style/ButtonNegative"
-                android:layout_width="wrap_content"
-                android:layout_height="56dp"
-                android:layout_marginEnd="8dp"
-                android:layout_weight="1"
-                android:background="@drawable/background_edit_text"
-                android:elevation="6dp"
-                android:text="@string/clear"
-                android:textColor="@color/text_color"
-                android:textSize="20sp" />
-
-            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnSaveTraining"
                 style="@android:style/Widget.Button"
                 android:layout_width="wrap_content"
                 android:layout_height="56dp"
                 android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
                 android:layout_weight="1"
+                android:layout_gravity="center_vertical"
                 android:background="@drawable/button_background"
-                android:elevation="6dp"
+                android:fontFamily="@font/russo_one_regular"
                 android:text="@string/save"
-                tools:textColor="@color/white"
+                tools:textColor="#242523"
                 android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/btnAddNewExercise"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/fab_background"
+                android:src="@drawable/ic_add" />
         </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

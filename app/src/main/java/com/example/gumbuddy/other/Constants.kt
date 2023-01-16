@@ -8,6 +8,7 @@ object Constants {
     const val KEY_LINEAR = "KEY_LINEAR"
     const val KEY_PYRAMID = "KEY_PYRAMID"
     const val KEY_CLEAN = "KEY_CLEAN"
+    const val KEY_APPLY = "KEY_APPLY"
     //Ключ очистки формы заполнения настроек
     const val KEY_CLEAR = "KEY_CLEAR"
 

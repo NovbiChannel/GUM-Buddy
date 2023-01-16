@@ -4,7 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".ui.fragments.workout.WorkoutFragment">
+    tools:context=".ui.fragments.workout.WorkoutFragment"
+    tools:background="@drawable/gradient_for_background_4x"
+    >
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rcViewTraining"
@@ -14,9 +16,47 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="gone"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
 
-<com.google.android.material.floatingactionbutton.FloatingActionButton
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#60AB06"
+            android:layout_marginTop="40dp"
+            android:textSize="16sp"
+            android:fontFamily="@font/jura_bold"
+            android:layout_gravity="center"
+            android:text="Ваш список упражнений пуст" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/text_color"
+            android:fontFamily="@font/jura_bold"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="Начните работу с добавления нового \тренировочного дня" />
+    </LinearLayout>
+
+<ImageButton
     android:id="@+id/fab"
     android:layout_width="56dp"
     android:layout_height="56dp"
@@ -24,6 +64,7 @@
     app:layout_constraintEnd_toEndOf="parent"
     android:layout_marginEnd="16dp"
     android:layout_marginBottom="16dp"
+    android:background="@drawable/fab_background"
     android:src="@drawable/ic_add"
     android:contentDescription="@string/floating_action_bar" />
 

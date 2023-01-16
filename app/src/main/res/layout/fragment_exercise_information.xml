@@ -2,7 +2,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/background_color"
+        tools:background="@drawable/gradient_for_background_4x"
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools">
@@ -13,13 +13,12 @@
         android:layout_height="250dp"
         android:layout_marginHorizontal="16dp"
         android:layout_marginTop="16dp"
-        android:background="@drawable/white_elevation_shape_r10"
         android:elevation="6dp"
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:src="@drawable/zhim" />
+        tools:src="@drawable/logo" />
 
         <LinearLayout
             android:id="@+id/llTitleAndDescruption"
@@ -41,7 +40,8 @@
                 android:layout_marginTop="32dp"
                 android:textSize="16sp"
                 android:textStyle="bold"
-                android:textColor="@color/text_color"
+                android:textColor="#60AB06"
+                android:fontFamily="@font/jura_bold"
                 tools:text="Жим штанги лёжа на горизонтальной скамье" />
 
             <TextView
@@ -51,6 +51,7 @@
                 android:layout_marginHorizontal="16dp"
                 android:layout_marginTop="8dp"
                 android:textSize="14sp"
+                android:fontFamily="@font/jura_regular"
                 android:textColor="@color/text_color"
                 tools:text="Это базовое упражнение в бодибилдинге и пауэрлифтинге со свободными весами, предназначенное для развития мышц груди, рук(трицепсов) и переднего пучка дельтовидных мышц." />
 

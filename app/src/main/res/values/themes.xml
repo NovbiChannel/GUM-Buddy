@@ -12,10 +12,10 @@
         <item name="colorSecondaryVariant">@color/blue_500</item>
         <item name="colorOnSecondary">@color/white</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">@color/white</item>
-        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">#1F1F1B</item>
+        <item name="android:windowLightStatusBar">false</item>
         <!-- Navigation bar color. -->
-        <item name="android:navigationBarColor">@color/white</item>
-        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarColor">#1F1F1B</item>
+        <item name="android:windowLightNavigationBar">false</item>
     </style>
 </resources>

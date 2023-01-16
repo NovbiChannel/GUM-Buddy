@@ -2,12 +2,12 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/background_color"
         android:paddingVertical="25dp"
         android:paddingHorizontal="17dp"
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
+        tools:background="@drawable/gradient_for_background_4x"
         tools:context=".ui.fragments.workout.addNewTraining.AddExerciseFragment">
 
         <EditText
@@ -18,10 +18,11 @@
             android:autofillHints=""
             android:background="@drawable/edittext_background_color"
             android:ems="10"
-            android:hint="@string/add_name"
+            android:hint="Поиск упражнения"
+            android:fontFamily="@font/jura_regular"
             android:layout_marginHorizontal="8dp"
             android:inputType="textPersonName"
-            android:textColor="@color/text_color"
+            android:textColor="#60AB06"
             android:textColorHint="@color/text_color"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -41,7 +42,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:paddingVertical="16dp"
-                android:background="@color/background_color"
                 app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
                 tools:listitem="@layout/list_item_exercise"
                 android:paddingBottom="86dp"
@@ -54,7 +54,6 @@
             android:layout_height="70dp"
             android:orientation="horizontal"
             android:paddingTop="8dp"
-            android:background="@color/background_color"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" >
@@ -65,24 +64,25 @@
                 android:layout_width="wrap_content"
                 android:layout_height="56dp"
                 android:layout_marginEnd="8dp"
-                android:layout_weight="1"
-                android:background="@drawable/background_edit_text"
+                android:background="#00000000"
                 android:elevation="6dp"
                 android:text="@string/clear"
+                android:fontFamily="@font/russo_one_regular"
                 android:textColor="@color/text_color"
                 android:textSize="20sp" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnSaveTraining"
                 style="@android:style/Widget.Button"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="56dp"
                 android:layout_marginStart="8dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_background"
                 android:elevation="6dp"
                 android:text="@string/add"
-                android:textColor="@color/white"
+                android:fontFamily="@font/russo_one_regular"
+                android:textColor="#242523"
                 android:textSize="20sp" />
 
         </LinearLayout>
